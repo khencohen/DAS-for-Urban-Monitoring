@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+networkx>=3.0
+
+# Street-network download & geospatial processing
+osmnx>=1.9          # tested with 2.1.0
+pyproj>=3.5
+
+# Optional: required only for the EEW and Activity-monitoring tasks
+# (sampling the WorldPop population raster). Traffic optimisation
+# runs without it.
+rasterio>=1.3
