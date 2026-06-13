@@ -1,0 +1,20 @@
+WorldPop Population Data — Attribution
+======================================
+
+The GeoTIFF rasters in this directory are redistributed from WorldPop under the
+Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
+Dataset:  Unconstrained global mosaics, 2020, UN-adjusted, 1 km resolution
+Source:   WorldPop (https://www.worldpop.org/), School of Geography and
+          Environmental Science, University of Southampton.
+DOI:      https://dx.doi.org/10.5258/SOTON/WP00647
+
+Files included (only those required to reproduce the paper):
+  mex_ppp_2020_1km_Aggregated_UNadj.tif   — Mexico  (Task 2: EEW, Mexico City)
+  fra_ppp_2020_1km_Aggregated_UNadj.tif   — France  (Task 3: Activity, Paris)
+
+Citation:
+  Tatem, A.J. WorldPop, open data for spatial demographics.
+  Scientific Data 4, 170004 (2017). https://doi.org/10.1038/sdata.2017.4
+
+License terms: https://creativecommons.org/licenses/by/4.0/

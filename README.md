@@ -45,9 +45,10 @@ Both **edge-count** and **km-of-fiber** budget modes are implemented for every t
 ```
 DAS-for-Urban-Monitoring/
 ├── optimal_routing.py     # all three tasks: optimisers, evaluation, figures, CLI
+├── reproduce_paper.py     # one-command reproduction of the paper's results
 ├── run_targeted.py        # helper: targeted panel generation for selected cities
-├── city_cache/            # bundled sample graphs (Tel Aviv, Manhattan, Barcelona)
-├── population_data/        # (you provide) WorldPop rasters — see "Data" below
+├── city_cache/            # bundled graphs — exact paper-city snapshots + samples
+├── population_data/       # bundled WorldPop rasters (Mexico, France) + attribution
 ├── requirements.txt
 ├── LICENSE                # MIT
 └── README.md
@@ -75,25 +76,65 @@ Tested with Python 3.11, `osmnx` 2.1.0, `networkx` 3.3, `numpy` 1.26, `scipy` 1.
 sample (Tel Aviv, Manhattan, Barcelona) is bundled so the code runs offline out of the
 box; any other city is fetched on first use.
 
-**Population rasters (manual, optional).** Tasks 2 and 3 require gridded population
-data. Download the **WorldPop** *Unconstrained global mosaics, 2020, UN-adjusted,
-1 km* GeoTIFFs from <https://www.worldpop.org/> and place them in `population_data/`
-(or point `$WORLDPOP_DIR` at them). Files must follow WorldPop's naming convention:
+**Population rasters (the paper's two are bundled).** Tasks 2 and 3 require
+gridded population data. The two rasters needed to reproduce the paper —
+`mex` (Mexico City, EEW) and `fra` (France/Paris, Activity) — are committed under
+`population_data/` (WorldPop is CC-BY 4.0; see `population_data/ATTRIBUTION.txt`).
 
+For **other** cities, download the **WorldPop** *Unconstrained global mosaics,
+2020, UN-adjusted, 1 km* GeoTIFFs from <https://www.worldpop.org/> into
+`population_data/` (or point `$WORLDPOP_DIR` at them), following the naming
+convention `{iso3}_ppp_2020_1km_Aggregated_UNadj.tif`. The ISO-3 code for each
+city is in `CITY_POP_RASTER` in `optimal_routing.py`. Task 1 (Traffic) runs
+**without** any population data.
+
+> WorldPop data © WorldPop, University of Southampton, distributed under CC-BY 4.0
+> (Tatem, A.J. *WorldPop, open data for spatial demographics.* Scientific Data 4,
+> 170004, 2017).
+
+---
+
+## Reproducing the paper
+
+The exact city × task combinations reported in the paper are reproduced by a
+single command, using the bundled graph snapshots and rasters (no downloads,
+fully deterministic — EEW epicentre sampling is seeded):
+
+```bash
+python reproduce_paper.py            # runs all four, writes panels to panels/
+python reproduce_paper.py --no-plots # numbers only (~1 min)
 ```
-population_data/
-├── isr_ppp_2020_1km_Aggregated_UNadj.tif   # Israel  (Tel Aviv)
-├── usa_ppp_2020_1km_Aggregated_UNadj.tif   # USA     (Manhattan, San Francisco)
-├── esp_ppp_2020_1km_Aggregated_UNadj.tif   # Spain   (Barcelona)
-└── ...
-```
 
-The ISO-3 country code for each city is listed in `CITY_POP_RASTER` in
-`optimal_routing.py`. Task 1 (Traffic) runs **without** any population data.
+| Task | City / cities | Output |
+|------|---------------|--------|
+| Traffic | Berlin, San Francisco, Singapore | traffic captured vs. edge/km budget |
+| EEW | Mexico City | worst-case detection distance vs. #DAS |
+| Activity | Paris | population covered vs. #DAS |
 
-> WorldPop data are distributed under CC-BY 4.0 by WorldPop, University of
-> Southampton (Tatem, A.J. *WorldPop, open data for spatial demographics.*
-> Scientific Data 4, 170004, 2017). They are **not** redistributed here.
+**Reference values** (re-running should match these; deviations indicate a
+changed graph, raster, or dependency version):
+
+*Traffic — % of total traffic captured*
+
+| City | 1% edges | 10% edges | 100 km |
+|------|:--------:|:---------:|:------:|
+| Berlin | 5.7% | 40.3% | 8.0% |
+| San Francisco | 6.5% | 43.7% | 23.0% |
+| Singapore | 4.0% | 28.9% | 6.8% |
+
+*EEW (Mexico City) — worst-case detection distance (m), lower is better*
+
+| T = 4 | T = 6 | T = 10 | T = 20 |
+|:-----:|:-----:|:------:|:------:|
+| 27,182 | 24,764 | 23,526 | 21,773 |
+
+*Activity (Paris) — % population within 600 m of a DAS*
+
+| T = 6 | 1 km | 10 km | 50 km |
+|:-----:|:----:|:-----:|:-----:|
+| 14.8% | 26.1% | 91.5% | 100.0% |
+
+Tested with Python 3.11, osmnx 2.1.0, networkx 3.3, numpy 1.26, scipy 1.17.
 
 ---
 

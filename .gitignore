@@ -12,16 +12,25 @@ env/
 .idea/
 .vscode/
 
-# Large data — not redistributed (see README for download instructions)
-population_data/
-*.tif
+# WorldPop rasters: the two needed to reproduce the paper (Mexico City EEW,
+# Paris Activity) are committed under population_data/ (CC-BY 4.0; see
+# population_data/ATTRIBUTION.txt). Any other rasters you download are ignored.
+population_data/*.tif
+!population_data/mex_ppp_2020_1km_Aggregated_UNadj.tif
+!population_data/fra_ppp_2020_1km_Aggregated_UNadj.tif
 
-# Cached OSMnx graphs — a small sample is committed under city_cache/;
-# any additional cities are downloaded on first run and ignored here.
+# Cached OSMnx graphs: the exact paper-city snapshots + a small sample are
+# committed under city_cache/. Additional cities downloaded on first run are
+# ignored (re-downloading would not match the paper's OSM snapshot).
 city_cache/*.pkl
 !city_cache/Tel_Aviv.pkl
 !city_cache/Manhattan.pkl
 !city_cache/Barcelona.pkl
+!city_cache/Berlin.pkl
+!city_cache/San_Francisco.pkl
+!city_cache/Singapore.pkl
+!city_cache/Mexico_City.pkl
+!city_cache/Paris.pkl
 
 # Generated outputs
 panels/
