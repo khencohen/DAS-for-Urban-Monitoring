@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "DAS-for-Urban-Monitoring: Optimal DAS interrogator placement on urban fiber-optic networks"
+abstract: >-
+  Code for optimal placement of Distributed Acoustic Sensing (DAS) interrogators
+  on existing urban fiber-optic networks across three city-scale sensing tasks:
+  traffic monitoring, earthquake early warning, and activity monitoring.
+  Companion code for "Percolation Thresholds for Urban Sensing with Existing
+  Fiber-Optics Networks".
+type: software
+authors:
+  - family-names: Cohen
+    given-names: Khen
+    affiliation: "Tel Aviv University"
+repository-code: "https://github.com/khencohen/DAS-for-Urban-Monitoring"
+license: MIT
+version: 1.0.0
+date-released: "2026-06-16"
+keywords:
+  - distributed acoustic sensing
+  - fiber-optic sensing
+  - percolation
+  - urban networks
+  - earthquake early warning
+  - OpenStreetMap
