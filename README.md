@@ -2,8 +2,9 @@
 
 Optimal placement of **Distributed Acoustic Sensing (DAS)** interrogators on existing
 urban fiber-optic networks, for three city-scale sensing tasks. This repository
-accompanies the paper *"Percolation Thresholds for Urban Sensing with Existing
-Fiber-Optics Networks"* (Khen Cohen).
+accompanies the paper *"Distributed Acoustic Sensing for Urban Monitoring:
+Coverage Thresholds and Percolation"* (Khen Cohen & Ariel Lellouch,
+[arXiv:2606.17018](https://arxiv.org/abs/2606.17018)).
 
 Existing telecom fiber under city streets can be repurposed as a dense array of
 acoustic sensors. Given a limited sensing **budget** — a number of interrogators, or
@@ -207,15 +208,16 @@ Defined at the top of `optimal_routing.py`:
 If you use this code, please cite:
 
 ```bibtex
-@article{cohen_das_urban_sensing,
-  title   = {Percolation Thresholds for Urban Sensing with Existing Fiber-Optics Networks},
-  author  = {Cohen, Khen},
-  year    = {2026},
-  note    = {Preprint}
+@misc{cohen2026distributedacousticsensingurban,
+  title         = {Distributed Acoustic Sensing for Urban Monitoring: Coverage Thresholds and Percolation},
+  author        = {Khen Cohen and Ariel Lellouch},
+  year          = {2026},
+  eprint        = {2606.17018},
+  archivePrefix = {arXiv},
+  primaryClass  = {cond-mat.stat-mech},
+  url           = {https://arxiv.org/abs/2606.17018}
 }
 ```
-
-*(arXiv identifier to be added on submission.)*
 
 ## License
 

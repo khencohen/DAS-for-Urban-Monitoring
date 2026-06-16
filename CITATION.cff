@@ -5,12 +5,15 @@ abstract: >-
   Code for optimal placement of Distributed Acoustic Sensing (DAS) interrogators
   on existing urban fiber-optic networks across three city-scale sensing tasks:
   traffic monitoring, earthquake early warning, and activity monitoring.
-  Companion code for "Percolation Thresholds for Urban Sensing with Existing
-  Fiber-Optics Networks".
+  Companion code for "Distributed Acoustic Sensing for Urban Monitoring:
+  Coverage Thresholds and Percolation" (arXiv:2606.17018).
 type: software
 authors:
   - family-names: Cohen
     given-names: Khen
+    affiliation: "Tel Aviv University"
+  - family-names: Lellouch
+    given-names: Ariel
     affiliation: "Tel Aviv University"
 repository-code: "https://github.com/khencohen/DAS-for-Urban-Monitoring"
 license: MIT
@@ -23,3 +26,15 @@ keywords:
   - urban networks
   - earthquake early warning
   - OpenStreetMap
+preferred-citation:
+  type: article
+  title: "Distributed Acoustic Sensing for Urban Monitoring: Coverage Thresholds and Percolation"
+  authors:
+    - family-names: Cohen
+      given-names: Khen
+    - family-names: Lellouch
+      given-names: Ariel
+  year: 2026
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2606.17018"
+  notes: "arXiv:2606.17018 [cond-mat.stat-mech]"

@@ -3,7 +3,8 @@
 Reproduce the paper's quantitative results.
 ====================================================================
 Runs the exact city x task combinations reported in
-"Percolation Thresholds for Urban Sensing with Existing Fiber-Optics Networks":
+"Distributed Acoustic Sensing for Urban Monitoring: Coverage Thresholds and
+Percolation" (Cohen & Lellouch, arXiv:2606.17018):
 
     * Earthquake Early Warning (EEW)  ->  Mexico City
     * Traffic monitoring              ->  Berlin, San Francisco, Singapore
