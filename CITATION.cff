@@ -16,6 +16,14 @@ authors:
     given-names: Ariel
     affiliation: "Tel Aviv University"
 repository-code: "https://github.com/khencohen/DAS-for-Urban-Monitoring"
+doi: 10.5281/zenodo.20711950
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20711950
+    description: "Concept DOI (all versions; resolves to the latest)"
+  - type: doi
+    value: 10.5281/zenodo.20711951
+    description: "Version DOI for v1.0.0"
 license: MIT
 version: 1.0.0
 date-released: "2026-06-16"

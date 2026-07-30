@@ -1,5 +1,9 @@
 # DAS-for-Urban-Monitoring
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20711950.svg)](https://doi.org/10.5281/zenodo.20711950)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.17018-b31b1b.svg)](https://arxiv.org/abs/2606.17018)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Optimal placement of **Distributed Acoustic Sensing (DAS)** interrogators on existing
 urban fiber-optic networks, for three city-scale sensing tasks. This repository
 accompanies the paper *"Distributed Acoustic Sensing for Urban Monitoring:
@@ -216,6 +220,23 @@ If you use this code, please cite:
   archivePrefix = {arXiv},
   primaryClass  = {cond-mat.stat-mech},
   url           = {https://arxiv.org/abs/2606.17018}
+}
+```
+
+The code itself is permanently archived on Zenodo
+([doi:10.5281/zenodo.20711950](https://doi.org/10.5281/zenodo.20711950)) and can
+be cited as:
+
+```bibtex
+@software{cohen2026dasrepo,
+  author    = {Cohen, Khen and Lellouch, Ariel},
+  title     = {{DAS-for-Urban-Monitoring}: Optimal {DAS} interrogator
+               placement on urban fiber-optic networks},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.20711950},
+  url       = {https://doi.org/10.5281/zenodo.20711950}
 }
 ```
 
