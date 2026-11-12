@@ -3,8 +3,8 @@
 Reproduce the paper's quantitative results.
 ====================================================================
 Runs the exact city x task combinations reported in
-"Distributed Acoustic Sensing for Urban Monitoring: Coverage Thresholds and
-Percolation" (Cohen & Lellouch, arXiv:2606.17018):
+"Coverage regimes for urban monitoring with distributed acoustic sensing"
+(Cohen & Lellouch; preprint arXiv:2606.17018):
 
     * Earthquake Early Warning (EEW)  ->  Mexico City
     * Traffic monitoring              ->  Berlin, San Francisco, Singapore
@@ -36,14 +36,14 @@ from optimal_routing import (
     # Task 1 — Traffic
     optimize_traffic, optimize_traffic_km, eval_traffic,
     # Task 2 — EEW
-    sample_earthquake_locations, optimize_eew, optimize_eew_km, eval_eew,
+    sample_earthquake_locations, optimize_eew, eval_eew_alarm,
     # Task 3 — Activity
     optimize_activity, optimize_activity_km, eval_activity,
     # plotting
     plot_city_base, plot_selected_edges, plot_pop_density,
     # constants
     DAS_SENSING_RANGE, EEW_MC_SAMPLES, EEW_MIN_SPACING,
-    EEW_T_VALUES, EEW_KM_BUDGETS,
+    EEW_T_VALUES,
     ACTIVITY_COVERAGE_RADIUS, ACTIVITY_T_VALUES, ACTIVITY_KM_BUDGETS,
     TRAFFIC_EDGE_FRACS, TRAFFIC_KM_BUDGETS,
 )
@@ -168,20 +168,15 @@ def reproduce_eew(make_plots=True):
 
         print(f"    (epicentres={EEW_MC_SAMPLES}, min spacing={EEW_MIN_SPACING/1000:g} km, "
               f"seed={SEED})")
-        print(f"    {'budget':>14} {'DAS':>6} {'km used':>10} {'max-detect (m)':>16}")
+        print(f"    {'budget':>14} {'DAS':>6} {'km used':>10} {'mean alarm (s)':>16}")
 
         city_rows = {}
         for T in EEW_T_VALUES:
             sel = optimize_eew(edges, T, eq_locs, EEW_MIN_SPACING)
-            score = eval_eew(edges, sel, eq_locs)
+            score = eval_eew_alarm(edges, sel, eq_locs)
             km_used = sum(edges[i]['length_m'] for i in sel) / 1000.0
             city_rows[f'T={T}'] = score
-            print(f"    {('T=' + str(T)):>14} {len(sel):>6} {km_used:>9.1f}km {score:>16,.0f}")
-        for km in EEW_KM_BUDGETS:
-            sel = optimize_eew_km(edges, km, eq_locs, EEW_MIN_SPACING)
-            score = eval_eew(edges, sel, eq_locs)
-            city_rows[f'{km}km'] = score
-            print(f"    {(str(km) + 'km'):>14} {len(sel):>6} {'':>9}   {score:>16,.0f}")
+            print(f"    {('T=' + str(T)):>14} {len(sel):>6} {km_used:>9.1f}km {score:>16.2f}")
 
         results[city] = city_rows
 
@@ -203,8 +198,8 @@ def _save_eew_panel(city, edges, base_lines, pop, sel, eq_locs):
                                 alpha=0.5, zorder=6))
         ax.scatter(edges[i]['mx'], edges[i]['my'], c='#1565C0', s=60, zorder=7,
                    edgecolors='white', linewidths=1)
-    score = eval_eew(edges, sel, eq_locs)
-    ax.set_title(f'{city} — EEW\nT={len(sel)} DAS, max-detect={score:,.0f} m',
+    score = eval_eew_alarm(edges, sel, eq_locs)
+    ax.set_title(f'{city} — EEW\nT={len(sel)} DAS, mean alarm time={score:.2f} s',
                  fontsize=16, fontweight='bold', pad=12)
     ax.axis('off'); ax.set_aspect('equal')
     fname = os.path.join(PANEL_DIR, f'{city.replace(" ", "_")}_eew_T6.png')

@@ -6,9 +6,10 @@
 
 Optimal placement of **Distributed Acoustic Sensing (DAS)** interrogators on existing
 urban fiber-optic networks, for three city-scale sensing tasks. This repository
-accompanies the paper *"Distributed Acoustic Sensing for Urban Monitoring:
-Coverage Thresholds and Percolation"* (Khen Cohen & Ariel Lellouch,
-[arXiv:2606.17018](https://arxiv.org/abs/2606.17018)).
+accompanies the paper *"Coverage regimes for urban monitoring with distributed
+acoustic sensing"* (Khen Cohen & Ariel Lellouch; preprint
+[arXiv:2606.17018](https://arxiv.org/abs/2606.17018), there titled *"Distributed
+Acoustic Sensing for Urban Monitoring: Coverage Thresholds and Percolation"*).
 
 Existing telecom fiber under city streets can be repurposed as a dense array of
 acoustic sensors. Given a limited sensing **budget** — a number of interrogators, or
@@ -23,7 +24,7 @@ distinct placement problems on real street networks downloaded from OpenStreetMa
 | # | Task | Objective | Optimiser |
 |---|------|-----------|-----------|
 | 1 | **Traffic monitoring** | maximise captured traffic, $\max \sum_{ij} C_{ij} A_{ij}$ | knapsack-greedy by traffic-per-DAS-cost |
-| 2 | **Earthquake Early Warning (EEW)** | minimise worst-case detection distance, $\min \max_q \min_i d(s_i, q)$ | greedy minimax with a minimum-spacing constraint |
+| 2 | **Earthquake Early Warning (EEW)** | minimise the population-weighted mean alarm time, $\min \sum_q w_q\,\delta_{(M)}(q)/v_P$ | greedy with a minimum-spacing constraint |
 | 3 | **Activity monitoring** | maximise population within DAS coverage radius | greedy maximum-coverage |
 
 **Task 1 — Traffic.** Each street edge carries a traffic weight derived from its
@@ -32,10 +33,12 @@ cost is the number of DAS units needed to cover it, $\lceil \ell / R \rceil$ for
 sensing range $R$. Edges are ranked by traffic-per-cost and selected until the budget
 is exhausted (a fractional-knapsack heuristic).
 
-**Task 2 — EEW.** Earthquake epicentres are Monte-Carlo sampled from a
-population-weighted distribution. Interrogators are placed greedily to minimise the
-maximum over all epicentres of the distance to the nearest DAS (3-D, accounting for
-hypocentre depth), subject to a minimum spacing between sensors.
+**Task 2 — EEW.** Candidate epicentres are sampled in proportion to population
+(or supplied with weights, e.g. an earthquake catalogue). An alarm is raised when
+the P wave has reached $M = 4$ segments that are at least 5 km apart. Interrogators
+are placed greedily to minimise the weighted mean alarm time, the P-wave arrival at
+the $M$-th nearest segment (3-D, accounting for hypocentre depth). Version 1.0.0
+used a minimax rule over the nearest segment, kept as `optimize_eew_minimax`.
 
 **Task 3 — Activity.** Population is sampled from a WorldPop raster at each edge
 midpoint. Interrogators are placed by greedy maximum-coverage to maximise the
@@ -52,6 +55,7 @@ DAS-for-Urban-Monitoring/
 ├── optimal_routing.py     # all three tasks: optimisers, evaluation, figures, CLI
 ├── reproduce_paper.py     # one-command reproduction of the paper's results
 ├── run_targeted.py        # helper: targeted panel generation for selected cities
+├── paper_analysis/        # scripts and result files behind the paper's Supplementary analyses
 ├── city_cache/            # bundled graphs — exact paper-city snapshots + samples
 ├── population_data/       # bundled WorldPop rasters (Mexico, France) + attribution
 ├── requirements.txt
@@ -113,7 +117,7 @@ python reproduce_paper.py --no-plots # numbers only (~1 min)
 | Task | City / cities | Output |
 |------|---------------|--------|
 | Traffic | Berlin, San Francisco, Singapore | traffic captured vs. edge/km budget |
-| EEW | Mexico City | worst-case detection distance vs. #DAS |
+| EEW | Mexico City | population-weighted mean alarm time vs. #DAS |
 | Activity | Paris | population covered vs. #DAS |
 
 **Reference values** (re-running should match these; deviations indicate a
@@ -127,11 +131,12 @@ changed graph, raster, or dependency version):
 | San Francisco | 6.5% | 43.7% | 23.0% |
 | Singapore | 4.0% | 28.9% | 6.8% |
 
-*EEW (Mexico City) — worst-case detection distance (m), lower is better*
+*EEW (Mexico City) — population-weighted mean alarm time (s), lower is better;
+the earliest possible value is 2.0 s (source depth 10 km, $v_P$ = 5 km/s)*
 
 | T = 4 | T = 6 | T = 10 | T = 20 |
 |:-----:|:-----:|:------:|:------:|
-| 27,182 | 24,764 | 23,526 | 21,773 |
+| 3.45 | 3.09 | 2.86 | 2.49 |
 
 *Activity (Paris) — % population within 600 m of a DAS*
 
@@ -140,6 +145,31 @@ changed graph, raster, or dependency version):
 | 14.8% | 26.1% | 91.5% | 100.0% |
 
 Tested with Python 3.11, osmnx 2.1.0, networkx 3.3, numpy 1.26, scipy 1.17.
+
+---
+
+## Analyses of the paper (`paper_analysis/`)
+
+The scripts that produce the Supplementary analyses, with their result files
+(`*.json`). They use the bundled graphs of ten cities (Tel Aviv, Barcelona,
+Manhattan, Berlin, Paris, Amsterdam, Rome, Buenos Aires, San Francisco, Tokyo);
+population comes from the bundled rasters or, for countries whose raster is too
+large to ship, from per-edge samples in `population_data/per_edge/`. Other cities
+are downloaded from OpenStreetMap on first use and may differ from the paper's
+snapshot.
+
+| Script | Analysis |
+|--------|----------|
+| `vd_alpha.py` | neighbourhood volume $\mathcal{V}(d)$ on 20 street networks |
+| `percolation_cities.py`, `city_scale_extent.py` | percolation thresholds and cluster extent on real networks |
+| `sparse_two_edges.py`, `connectivity_two_edges.py` | random versus designed placement: sparse coverage and connectivity |
+| `tasks_many_cities.py`, `make_fig4_many_cities.py` | traffic and activity versus coverage in ten cities (Fig. 4) |
+| `tasks_clustered_cities.py` | street-level versus clustered access |
+| `knapsack_gap.py` | greedy versus exact knapsack |
+| `eew_common.py`, `eew_round7.py` | EEW design, source priors, warning times (Fig. 3 middle row) |
+| `backbone.py`, `infra_architectures.py`, `arch_traffic_sim.py`, `eew_arch_backbone.py` | sensing range, backbone routes (busiest 4% of the network), and the three architectures |
+
+Run any of them from the repository root, e.g. `python paper_analysis/eew_arch_backbone.py`.
 
 ---
 
@@ -187,7 +217,7 @@ Key entry points in `optimal_routing.py`:
 | Function | Task | Budget |
 |----------|------|--------|
 | `optimize_traffic(edges, T)` / `optimize_traffic_km(edges, km)` | Traffic | edges / km |
-| `optimize_eew(edges, T, eq_locs)` / `optimize_eew_km(...)` | EEW | edges / km |
+| `optimize_eew(edges, T, eq_locs, weights=None)` | EEW (mean alarm time; `optimize_eew_minimax` is the v1.0.0 objective) | edges |
 | `optimize_activity(edges, T, pop)` / `optimize_activity_km(...)` | Activity | edges / km |
 
 ---
@@ -201,8 +231,9 @@ Defined at the top of `optimal_routing.py`:
 | `DAS_SENSING_RANGE` | 500 m | max length one DAS unit covers |
 | `EEW_MIN_SPACING` | 5000 m | minimum distance between EEW sensors |
 | `ACTIVITY_COVERAGE_RADIUS` | 600 m | DAS coverage radius for activity monitoring |
-| `EQ_DEPTH` | 20 km | assumed earthquake hypocentre depth |
-| `V_P`, `V_S` | 7000, 4000 m/s | P/S-wave velocities |
+| `EQ_DEPTH` | 10 km | assumed earthquake hypocentre depth (sensitivity case 20 km) |
+| `V_P`, `V_S` | 5000, 2900 m/s | P/S-wave velocities (sensitivity case 7000, 4000 m/s) |
+| `EEW_M` | 4 | segments that must detect the P wave before an alarm |
 | `TRAFFIC_WEIGHT` | dict | per-`highway`-class traffic weights |
 
 ---

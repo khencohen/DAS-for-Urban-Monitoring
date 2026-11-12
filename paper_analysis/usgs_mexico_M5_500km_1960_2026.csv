@@ -1,0 +1,505 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2026-06-13T18:20:42.492Z,16.7513,-99.634,10,5.1,mww,74,163,1.301,0.7,us,us7000ssq9,2026-08-31T21:44:26.040Z,"2 km S of Cerro de Piedra, Mexico",earthquake,7.89,1.912,0.052,36,reviewed,us,us
+2026-06-05T20:55:01.751Z,16.7194,-98.4501,22.836,5.2,mww,282,79,0.449,0.63,us,us7000sqzv,2026-08-15T17:27:02.040Z,"3 km SW of Acatepec, Mexico",earthquake,6.6,4.003,0.042,55,reviewed,us,us
+2026-05-04T15:19:24.589Z,16.4698,-98.0183,18,5.5,mww,87,79,1.207,0.84,us,us7000si51,2026-08-18T15:52:11.288Z,"0 km SW of San Juan Jicayán, Mexico",earthquake,9.11,1.771,0.051,37,reviewed,us,us
+2026-03-28T12:57:53.114Z,16.3342,-98.617,10,5.1,mww,80,126,0.474,1.01,us,us7000s8d7,2026-06-10T15:14:54.040Z,"13 km SW of San Nicolás, Mexico",earthquake,3.62,1.574,0.053,34,reviewed,us,us
+2026-02-08T21:42:09.325Z,15.9691,-96.9212,22,5.7,mww,110,83,0.219,1.05,us,us6000s7cl,2026-05-01T14:35:47.040Z,"8 km NNE of Santa María Colotepec, Mexico",earthquake,4.45,1.829,0.047,44,reviewed,us,us
+2026-01-02T13:58:15.741Z,16.798,-99.3939,18,6.5,mww,122,44,1.097,1.11,us,us7000rm3k,2026-04-07T22:11:51.040Z,"0 km W of San Marcos, Mexico",earthquake,8.72,1.72,0.027,135,reviewed,us,us
+2025-09-08T22:33:19.764Z,16.2607,-98.1418,10,5.2,mb,95,126,0.991,0.77,us,us7000quvu,2025-11-30T23:40:52.040Z,"5 km ENE of Corralero, Mexico",earthquake,3.11,1.794,0.028,429,reviewed,us,us
+2025-08-02T17:58:45.419Z,17.1124,-96.2645,62.566,5.8,mww,275,42,0.45,0.93,us,us6000qxpd,2025-10-17T22:51:42.040Z,"4 km S of Xagacía, Mexico",earthquake,4.68,3.909,0.034,82,reviewed,us,us
+2025-03-15T03:19:27.274Z,17.3361,-97.4253,62,5.6,mww,114,73,1.112,1.22,us,us6000pyyq,2025-05-17T19:19:58.040Z,"5 km W of San Pedro Tidaá, Mexico",earthquake,7.61,1.899,0.041,58,reviewed,us,us
+2025-02-28T19:39:28.430Z,18.2972,-99.3687,65.162,5,mww,215,52,1.039,0.47,us,us6000pw5b,2026-01-02T17:41:45.977Z,"3 km NE of Pololcingo, Mexico",earthquake,5.15,5.29,0.069,20,reviewed,us,us
+2025-01-12T08:32:49.944Z,18.5019,-103.3631,39,6.2,mww,84,90,0.901,1.38,us,us6000pjig,2026-06-12T15:24:31.551Z,"18 km SE of Aquila, Mexico",earthquake,6.47,1.934,0.032,96,reviewed,us,us
+2024-12-15T09:58:33.437Z,16.0802,-98.6778,10,5,mb,149,198,1.478,0.83,us,us7000nz1h,2025-02-18T20:03:00.040Z,"37 km SW of Santiago Tepextla, Mexico",earthquake,6.68,1.948,0.049,134,reviewed,us,us
+2024-11-14T09:16:31.724Z,16.47,-98.4401,41.058,5,mb,79,162,1.093,0.71,us,us7000nrp3,2025-01-26T16:29:45.040Z,"2 km W of Cuajinicuilapa, Mexico",earthquake,8.96,7.135,0.033,285,reviewed,us,us
+2024-11-13T00:18:23.349Z,16.2665,-98.4105,13.807,5,mww,116,164,1.298,0.67,us,us7000nrgf,2025-01-26T16:29:28.040Z,"8 km SSW of Santo Domingo Armenta, Mexico",earthquake,9.64,5.572,0.059,28,reviewed,us,us
+2024-07-27T10:30:16.152Z,17.0905,-99.8798,34.66,5.3,mww,65,183,1.339,0.75,us,us6000ngby,2024-10-08T21:49:13.005Z,"4 km NE of Platanillo, Mexico",earthquake,5.91,4.596,0.038,65,reviewed,us,us
+2024-06-23T17:16:17.185Z,16.6693,-99.4449,15.036,5.3,mww,81,163,1.223,0.66,us,us7000mu56,2024-08-30T18:17:05.040Z,"12 km SE of Llano de la Puerta, Mexico",earthquake,7.75,3.668,0.041,56,reviewed,us,us
+2023-12-07T20:03:38.568Z,18.2702,-98.7384,54,5.7,mww,212,24,0.666,1.06,us,us7000lh50,2024-11-19T03:23:33.560Z,"12 km SSW of Huehuetlan el Chico, Mexico",earthquake,1.14,1.844,0.036,73,reviewed,us,us
+2023-07-16T13:44:34.199Z,18.3051,-100.8784,62.74,5.1,mww,104,86,0.505,0.89,us,us7000kg5l,2023-09-28T21:33:29.040Z,"3 km W of Paso de Arena, Mexico",earthquake,4.09,5.426,0.098,10,reviewed,us,us
+2023-05-16T18:22:12.049Z,23.0943,-100.1202,10,5,mww,172,61,2.279,0.76,us,us6000kccg,2023-07-24T01:16:32.040Z,"15 km NNW of Lázaro Cárdenas, Mexico",earthquake,6.89,1.821,0.093,11,reviewed,us,us
+2023-04-19T04:55:28.151Z,17.2744,-101.0622,21.079,5.2,mww,148,70,0.507,0.72,us,us6000k5fw,2023-07-03T02:47:11.040Z,"6 km SSW of Papanoa, Mexico",earthquake,4.97,3.559,0.043,52,reviewed,us,us
+2023-04-04T02:11:57.992Z,16.0809,-96.9831,31,5.4,mww,125,78,0.178,0.64,us,us6000k1uw,2024-10-09T15:16:15.689Z,"10 km E of San Gabriel Mixtepec, Mexico",earthquake,4.3,1.831,0.043,53,reviewed,us,us
+2022-12-11T14:31:29.051Z,17.1801,-100.53,18,6,mww,179,119,1.913,0.75,us,us6000j8lp,2023-11-21T04:50:20.904Z,"7 km W of Corral Falso, Mexico",earthquake,6.68,1.672,0.043,53,reviewed,us,us
+2022-10-27T08:45:24.985Z,16.3235,-98.9935,11.217,5,mww,109,96,1.298,0.56,us,us7000ikml,2023-01-03T15:23:41.040Z,"31 km S of Copala, Mexico",earthquake,8.67,4.229,0.048,41,reviewed,us,us
+2022-09-23T18:25:59.283Z,18.5021,-103.6506,41.467,5.2,mww,203,80,0.825,0.82,us,us7000iaj5,2024-01-18T16:53:41.458Z,"7 km WSW of La Placita de Morelos, Mexico",earthquake,6.03,4.007,0.05,38,reviewed,us,us
+2022-09-22T06:16:09.459Z,18.2633,-102.9554,20,6.8,mww,175,92,2.137,0.66,us,us7000ia36,2025-07-30T22:11:40.635Z,"55 km SSW of Aguililla, Mexico",earthquake,5.51,1.661,0.045,48,reviewed,us,us
+2022-09-20T08:17:10.977Z,18.3487,-103.6243,16,5.8,mww,138,70,2.61,1.24,us,us7000i9hm,2022-11-26T20:57:45.040Z,"20 km S of La Placita de Morelos, Mexico",earthquake,7.02,1.711,0.029,112,reviewed,us,us
+2022-09-19T18:05:08.217Z,18.4552,-102.9561,26.943,7.6,mww,271,69,1.153,0.76,us,us7000i9bw,2025-12-10T03:40:12.288Z,"35 km SSW of Aguililla, Mexico",earthquake,5.57,1.465,0.025,159,reviewed,us,us
+2022-08-12T08:17:26.497Z,18.4823,-100.8797,71.653,5.2,mww,116,147,1.204,0.95,us,us6000ia64,2022-10-21T23:20:55.040Z,"10 km E of Zirándaro de los Chávez, Mexico",earthquake,9.27,7.173,0.06,27,reviewed,us,us
+2022-05-25T21:43:01.068Z,16.1693,-95.9576,34,5.5,mww,241,72,1.156,0.81,us,us7000hcir,2022-08-02T19:50:51.040Z,"12 km WNW of Santa María Zapotitlán, Mexico",earthquake,4.5,1.8,0.047,44,reviewed,us,us
+2022-04-19T12:44:08.076Z,17.8597,-101.864,17.55,5,mww,,119,1.502,0.66,us,us7000h3bw,2022-06-26T01:19:42.040Z,"15 km SSW of La Unión, Mexico",earthquake,4.6,3.9,0.058,29,reviewed,us,us
+2022-03-06T03:29:20.344Z,16.9112,-95.2004,94.63,5.5,mww,,72,0.351,0.94,us,us6000h2h0,2022-05-14T21:52:18.040Z,"3 km S of Zacatal, Mexico",earthquake,4.9,3.5,0.033,86,reviewed,us,us
+2022-03-03T14:40:33.040Z,18.2008,-95.4044,109.88,5.7,mww,,67,3.077,1.04,us,us6000h1qa,2022-05-07T21:32:46.040Z,"Veracruz, Mexico",earthquake,7.5,3,0.032,96,reviewed,us,us
+2022-03-01T19:35:46.624Z,16.2753,-96.3774,40.18,5.3,mww,,75,1.645,0.91,us,us6000h179,2022-05-07T21:32:41.040Z,"5 km SE of San Cristóbal Amatlán, Mexico",earthquake,7.1,4.9,0.098,10,reviewed,us,us
+2021-09-08T01:47:47.437Z,16.9465,-99.753,20,7,mww,,43,0.07,0.64,us,us7000f93v,2025-12-22T22:15:43.705Z,"Acapulco, Mexico",earthquake,5.2,1.2,0.04,61,reviewed,us,us
+2021-08-29T19:29:25.276Z,17.954,-95.0042,121.52,5,mww,,36,0.797,0.98,us,us7000f5hu,2025-12-22T22:14:40.880Z,"1 km NNW of Dehesa, Mexico",earthquake,5.6,4.4,0.047,43,reviewed,us,us
+2021-07-01T01:13:38.950Z,16.5264,-97.9648,10,5,mww,,59,0.204,0.95,us,us7000ehvx,2025-12-22T19:03:15.622Z,"4 km NNE of San Pedro Atoyac, Mexico",earthquake,3.6,1.8,0.059,28,reviewed,us,us
+2021-05-11T04:37:08.861Z,18.7614,-102.7126,57.79,5,mww,,36,0.762,0.85,us,us7000e1yz,2025-12-22T18:58:40.878Z,"8 km ENE of Aguililla, Mexico",earthquake,4.8,3.4,0.046,45,reviewed,us,us
+2021-03-20T03:06:30.645Z,16.6386,-98.8402,10,5.7,mww,,84,0.955,1.11,us,us7000dl4v,2025-12-22T18:54:49.440Z,"6 km NNW of Marquelia, Mexico",earthquake,2.6,1.8,0.041,57,reviewed,us,us
+2020-06-24T02:33:19.930Z,15.7688,-96.3698,4.21,5.4,mww,,89,0.782,0.59,us,us6000ahkh,2025-12-22T18:42:21.984Z,"4 km ESE of San Miguel Figueroa, Mexico",earthquake,5.8,3,0.043,52,reviewed,us,us
+2020-01-30T06:47:22.416Z,16.9407,-99.9791,13.59,5.2,mww,,153,0.11,0.79,us,us60007juk,2025-12-22T18:27:27.584Z,"1 km W of El Conchero, Mexico",earthquake,5.8,3.5,0.041,58,reviewed,us,us
+2020-01-15T08:15:27.440Z,16.4901,-97.9016,32,5,mww,,147,0.499,1.29,us,us70007035,2025-12-22T17:56:43.854Z,"6 km ENE of San Juan Colorado, Mexico",earthquake,5.6,4.1,0.062,25,reviewed,us,us
+2019-11-06T05:59:49.897Z,16.2026,-97.979,25.11,5,mb,,96,0.236,0.94,us,us700063v5,2020-02-01T23:21:39.040Z,"1 km NNW of Collantes, Mexico",earthquake,5.2,4.6,0.026,487,reviewed,us,us
+2019-06-16T17:25:23.138Z,18.5738,-101.7714,60.71,5.1,mb,,83,0.89,1.32,us,us600041f4,2025-12-22T18:11:12.462Z,"16 km SW of Churumuco de Morelos, Mexico",earthquake,4.1,5.4,0.022,641,reviewed,us,us
+2019-04-22T20:15:24.934Z,16.3586,-98.4853,12.46,5.4,mww,,90,0.345,1.1,us,us70003adr,2025-12-22T18:08:24.579Z,"3 km SSE of Montecillos, Mexico",earthquake,5.1,2.5,0.05,38,reviewed,us,us
+2019-03-03T15:25:53.559Z,18.4451,-101.4137,49.22,5.1,mww,,52,0.835,1.19,us,us1000ja57,2025-12-22T18:05:11.687Z,"6 km SW of Aratichanguío, Mexico",earthquake,3.8,3.9,0.066,22,reviewed,us,us
+2018-08-22T18:03:07.550Z,16.6048,-98.7299,16.92,5.3,mww,,145,0.406,1.2,us,us1000gfiy,2022-05-03T19:28:04.497Z,"3 km SW of Agua Zarca, Mexico",earthquake,3.7,1,0.065,23,reviewed,us,us
+2018-07-19T13:31:53.780Z,17.9318,-97.7158,48.46,5.8,mww,,50,0.89,1.04,us,us2000g8sc,2022-05-03T19:23:05.502Z,"4 km NNW of Santa María Camotlán, Mexico",earthquake,4.8,3.9,0.037,70,reviewed,us,us
+2018-07-17T08:54:41.120Z,18.4075,-103.369,35,5.1,mww,,192,2.371,1.38,us,us2000g6w8,2022-05-03T19:22:43.868Z,"25 km SE of Aquila, Mexico",earthquake,9.7,1.9,0.063,24,reviewed,us,us
+2018-05-21T02:15:18.300Z,17.071,-98.6744,36.61,5.2,mb,,91,0.499,1.3,us,us1000e95q,2022-05-03T19:13:36.871Z,"3 km NNE of Iliatenco, Mexico",earthquake,3.2,7.1,0.023,624,reviewed,us,us
+2018-05-16T14:20:27.470Z,18.2208,-100.4896,50.99,5,mb,,67,0.147,1.4,us,us1000e6dc,2022-05-03T19:13:17.671Z,"Guerrero-Michoacan border region, Mexico",earthquake,3.4,6.4,0.053,114,reviewed,us,us
+2018-05-04T15:16:56.210Z,16.2833,-98.9332,10,5,mb,,89,1.319,1.13,us,us1000dxxd,2018-07-27T20:20:30.040Z,"Guerrero-Oaxaca border region, Mexico",earthquake,4.3,1.9,0.029,372,reviewed,us,us
+2018-03-20T17:46:55.590Z,16.3103,-98.4707,6.69,5.2,mww,,93,0.339,1.25,us,us1000d6ul,2022-05-03T18:49:56.101Z,"4 km SW of Santiago Tepextla, Mexico",earthquake,5.2,3.6,0.057,30,reviewed,us,us
+2018-03-20T16:43:58.330Z,16.4163,-98.4418,10,5,mb,,126,0.303,0.97,us,us1000d6tb,2018-06-19T01:35:45.040Z,"6 km ENE of Montecillos, Mexico",earthquake,6.1,1.9,0.027,435,reviewed,us,us
+2018-02-19T06:56:58.170Z,16.2857,-97.7314,22,5.9,mww,,72,0.394,1.43,us,us2000d4lg,2022-05-03T19:08:52.800Z,"4 km SSE of Santiago Tetepec, Mexico",earthquake,3.6,1.7,0.046,46,reviewed,us,us
+2018-02-17T21:30:43.760Z,16.5065,-97.8801,19.23,5.2,mww,,85,0.262,0.72,us,us2000d3yq,2022-05-03T19:18:42.373Z,"9 km ENE of San Juan Colorado, Mexico",earthquake,6.7,3.4,0.056,31,reviewed,us,us
+2018-02-17T03:54:46.400Z,16.4032,-97.4865,34.38,5,mb,,98,0.518,0.86,us,us2000d3ql,2022-05-03T18:47:54.057Z,"12 km N of Tepenixtlahuaca, Mexico",earthquake,6.3,5,0.045,159,reviewed,us,us
+2018-02-17T00:36:52.130Z,16.1557,-97.8665,3.48,5.8,mww,,90,0.708,1.27,us,us2000d3m0,2022-05-03T19:02:57.492Z,"8 km SE of José María Morelos, Mexico",earthquake,5.5,3.5,0.071,19,reviewed,us,us
+2018-02-16T23:39:39.280Z,16.3855,-97.9787,22,7.2,mww,,82,0.142,1.23,us,us2000d3km,2024-10-07T06:48:33.331Z,"4 km S of Pinotepa de Don Luis, Mexico",earthquake,4.3,1.8,0.062,25,reviewed,us,us
+2017-12-21T03:23:35.700Z,16.1392,-98.2997,14.17,5.1,mww,,106,0.301,0.54,us,us1000bu4s,2022-05-03T18:43:35.031Z,"16 km SW of Corralero, Mexico",earthquake,4.3,4,0.061,26,reviewed,us,us
+2017-09-19T18:14:38.090Z,18.5499,-98.4887,48,7.1,mww,,23,0.984,1.14,us,us2000ar20,2026-10-01T18:43:58.193Z,"1 km S of Matzaco, Mexico",earthquake,4.5,1.8,0.048,41,reviewed,us,us
+2017-08-18T05:15:14.460Z,16.9872,-100.3035,26.3,5.1,mb,,150,0.069,1.18,us,us2000a99s,2022-08-07T15:03:16.622Z,"7 km SSW of Cayaco, Mexico",earthquake,4.5,5.3,0.056,103,reviewed,us,us
+2017-06-14T23:58:52.030Z,15.3234,-97.1756,14.03,5.5,mww,,70,0.671,1.03,us,us20009mji,2022-05-03T19:31:58.398Z,"57 km SSW of La Barra de Colotepec, Mexico",earthquake,4.9,3,0.037,72,reviewed,us,us
+2017-01-12T10:26:55.750Z,16.5924,-98.4802,21.19,5,mb,,170,0.933,1.12,us,us10007suf,2022-05-03T18:08:43.651Z,"8 km NE of El Pitahayo, Mexico",earthquake,4.3,10.1,0.029,389,reviewed,us,us
+2016-12-02T13:57:54.760Z,17.3706,-101.2981,23.75,5,mb,,170,0.283,1.62,us,us10007e9p,2022-05-03T18:03:34.108Z,"18 km S of Petatlán, Mexico",earthquake,4.8,5.9,0.053,115,reviewed,us,us
+2016-09-29T08:56:18.190Z,15.921,-98.7526,10,5.1,mb,,141,0.762,1.14,us,us10006trl,2016-12-14T03:17:56.040Z,"56 km SW of Santiago Tepextla, Mexico",earthquake,5,1.9,0.087,43,reviewed,us,us
+2016-09-29T08:55:16.670Z,16.2086,-98.4622,18,5.1,mwb,,155,0.37,1.17,us,us10006tre,2022-05-03T18:00:43.071Z,"14 km S of Santiago Tepextla, Mexico",earthquake,3.8,1.9,0.08,15,reviewed,us,us
+2016-07-19T13:42:44.700Z,17.5,-98.7382,44.21,5.1,mb,,46,0.175,0.91,us,us20006ft7,2022-05-03T17:55:20.556Z,"4 km NNW of Copanatoyac, Mexico",earthquake,3.9,4.7,0.031,344,reviewed,us,us
+2016-06-27T20:50:34.740Z,16.5502,-97.8332,19,5.7,mww,,72,1.227,0.8,us,us200067az,2022-05-03T17:52:06.501Z,"8 km S of La Reforma, Mexico",earthquake,7.5,1.7,,,reviewed,us,us
+2016-05-08T07:34:00.700Z,16.4107,-97.8416,22,5.8,mww,,71,0.274,1.23,us,us10005ftw,2022-05-03T17:48:33.384Z,"3 km WNW of San Agustín Chayuco, Mexico",earthquake,1.6,1.8,,,reviewed,us,us
+2016-04-10T07:11:21.580Z,16.0557,-96.2563,25,5.5,mww,,71,0.319,0.94,us,us20005gs0,2022-05-03T17:44:08.405Z,"5 km ESE of Santa Cruz Ozolotepec, Mexico",earthquake,5.6,1.8,,,reviewed,us,us
+2015-11-23T20:41:21.500Z,16.9762,-98.9116,34,5.6,mww,,83,0.67,1.36,us,us100040iy,2022-08-01T19:49:36.641Z,"10 km NE of La Concordia, Mexico",earthquake,2.7,1.1,,,reviewed,us,us
+2015-11-22T08:11:15.760Z,16.8532,-96.412,49.01,5,mb,,60,0.366,1.15,us,us100040aj,2022-08-01T19:24:49.920Z,"3 km WSW of Santiago Matatlán, Mexico",earthquake,4,4.8,0.027,448,reviewed,us,us
+2015-11-06T20:14:02.560Z,16.5675,-95.8796,48.73,5,mb,,45,0.824,1.27,us,us10003vcl,2022-08-01T16:16:19.171Z,"11 km ESE of Nejapa de Madero, Mexico",earthquake,4,5.3,0.032,323,reviewed,us,us
+2015-10-25T14:47:51.960Z,18.2628,-101.611,41.96,5.2,mww,,48,0.667,0.75,us,us10003rb9,2022-08-01T13:35:27.143Z,"14 km ESE of Coahuayutla de Guerrero, Mexico",earthquake,6.6,4,,,reviewed,us,us
+2015-09-30T17:25:54.190Z,18.0401,-101.3369,42,5.4,mww,,67,1.601,1.18,us,us10003jb2,2022-08-01T08:41:43.610Z,"13 km N of Vallecitos de Zaragoza, Mexico",earthquake,7.6,1.8,,,reviewed,us,us
+2015-09-29T15:02:13.920Z,17.8081,-102.2965,19.83,5,mb,,70,1.106,0.95,us,us10003iv8,2022-08-01T08:31:16.360Z,"19 km SSW of Ciudad Lázaro Cárdenas, Mexico",earthquake,4.6,3,0.026,454,reviewed,us,us
+2015-06-25T10:31:51.470Z,16.6416,-97.9861,32.73,5,mb,,99,1.071,1.21,us,us10002lj4,2022-07-31T14:59:40.813Z,"1 km ENE of Zocoteaca de León, Mexico",earthquake,8,4.6,0.027,439,reviewed,us,us
+2015-03-20T22:30:07.550Z,18.0325,-98.5135,52,5.4,mwb,,52,0.469,0.88,us,us10001pbh,2022-07-28T03:20:28.408Z,"3 km SSE of Xicotlán, Mexico",earthquake,5.1,1.8,0.066,22,reviewed,us,us
+2014-08-13T06:48:11.360Z,16.3645,-98.1587,7,5.4,mww,,48,1.253,0.98,us,usb000s2bb,2022-07-26T22:08:00.173Z,"5 km WSW of Mancuernas, Mexico",earthquake,,1.7,,,reviewed,us,us
+2014-07-29T10:46:14.700Z,17.6818,-95.6533,107,6.3,mww,,43,0.94,1.54,us,usb000ry8m,2024-12-03T20:22:50.730Z,"2 km SE of Santa Teresa, Mexico",earthquake,,1.7,,,reviewed,us,us
+2014-07-23T00:28:15.700Z,16.8435,-100.2147,10,5,mb,,96,1.217,1.18,us,usb000rwc3,2025-12-22T16:57:31.691Z,"18 km SSW of El Espinalillo, Mexico",earthquake,,1.8,0.029,432,reviewed,us,us
+2014-05-24T08:24:47.990Z,16.526,-98.141,17,5.7,mww,,79,0.133,1.11,us,usb000r2gj,2022-07-26T15:39:54.238Z,"2 km S of San Sebastián Ixcapa, Mexico",earthquake,,1.8,,,reviewed,us,us
+2014-05-21T10:06:15.800Z,17.121,-95.0729,120.3,5.8,mww,,,,1.44,us,usb000qxx2,2022-08-06T23:54:09.635Z,"2 km SSW of Palomares, Mexico",earthquake,,3.8,,,reviewed,unm,us
+2014-05-10T07:36:01.220Z,17.2192,-100.8122,23,6,mww,,47,0.548,1.3,us,usb000qgt2,2022-08-06T23:42:15.550Z,"6 km W of Nuxco, Mexico",earthquake,,1.8,,,reviewed,us,us
+2014-05-08T17:00:14.810Z,17.2349,-100.7461,17.09,6.4,mww,,55,0.494,1.12,us,usb000qea2,2024-10-05T22:38:11.892Z,"3 km NNE of Nuxco, Mexico",earthquake,,3,,,reviewed,us,us
+2014-04-19T14:58:16.470Z,17.4238,-101.2141,35,5,mb,,99,2.211,1.09,us,usb000praw,2014-07-04T01:34:06.000Z,"13 km SSE of Petatlán, Mexico",earthquake,,1.5,0.052,126,reviewed,us,us
+2014-04-18T14:27:24.920Z,17.397,-100.9723,24,7.2,mww,,46,2.25,1.2,us,usb000pq41,2022-08-06T23:17:03.874Z,"9 km ENE of Coyuquilla Norte, Mexico",earthquake,,1.5,,,reviewed,us,us
+2014-03-10T00:38:15.100Z,16.0414,-98.3358,8.41,5.8,mww,,82,1.528,0.7,us,usc000n65q,2022-08-06T22:11:48.741Z,"26 km SW of Corralero, Mexico",earthquake,,3.1,,,reviewed,us,us
+2013-12-01T03:20:55.700Z,17.295,-101.668,20,5.1,mb,,,,1.99,us,usb000l8na,2022-07-26T02:45:37.459Z,"40 km SSW of Ixtapa-Zihuatanejo, Mexico",earthquake,,3.8,0.035,,reviewed,unm,us
+2013-10-06T15:10:55.960Z,16.766,-100.059,20.6,5.08,mw,,,,,iscgem,iscgem607352357,2022-05-03T17:26:59.238Z,"17 km SSW of Colonia Luces en el Mar, Mexico",earthquake,,8.2,0.1,,reviewed,iscgem,iscgem
+2013-08-21T13:02:17.290Z,16.778,-99.711,23,5.3,mb,,,,1.67,us,usb000j84d,2022-07-25T20:51:12.553Z,"4 km WNW of La Estación, Mexico",earthquake,,3.3,0.029,,reviewed,us_unm,us
+2013-08-21T12:38:29.700Z,16.8784,-99.498,21,6.2,mww,,45,0.755,1,us,usb000j83t,2022-08-06T17:15:04.122Z,"5 km ESE of Barrio Nuevo de los Muertos, Mexico",earthquake,,1.7,,,reviewed,us,us
+2013-08-16T15:32:58.000Z,16.5498,-98.5517,21,5.2,mwb,,117,1.007,1.05,us,usb000j4wm,2022-07-25T20:41:32.579Z,"3 km NW of El Pitahayo, Mexico",earthquake,,1.8,0.05,,reviewed,us,us
+2013-08-13T16:50:42.770Z,16.6539,-98.4224,31.46,5.3,mb,,101,0.914,0.81,us,usb000j28u,2022-07-25T20:26:50.733Z,"4 km SSW of Ometepec, Mexico",earthquake,,4.2,0.031,,reviewed,us,us
+2013-08-06T20:17:30.790Z,16.498,-98.6,20,5.1,mb,,,,1.85,us,usb000iwty,2022-07-25T19:46:43.074Z,"8 km WSW of El Pitahayo, Mexico",earthquake,,4.9,0.029,,reviewed,us_unm,us
+2013-06-16T05:19:00.000Z,18.155,-99.203,52,5.8,mww,692,28,,1.31,us,usc000hs1m,2022-08-06T16:19:19.449Z,"5 km N of Tequicuilco, Mexico",earthquake,,,,,reviewed,us,us
+2013-04-22T01:16:32.840Z,18.081,-102.182,30,6,mww,539,41,,1.21,us,usb000gda9,2022-08-06T15:09:41.490Z,"7 km NNE of Guacamayas, Mexico",earthquake,,,,,reviewed,us,us
+2013-04-12T03:45:09.700Z,17.772,-101.597,37.1,5.2,mb,493,66.6,,,us,usb000g5j2,2022-07-24T23:23:44.350Z,"5 km NE of Pantla, Mexico",earthquake,,,,296,reviewed,unm,us
+2013-04-05T01:58:48.640Z,17.226,-100.54,35,5.3,mb,506,44.9,,0.61,us,usb000g05s,2022-07-24T22:33:10.573Z,"9 km E of Técpan de Galeana, Mexico",earthquake,,,,298,reviewed,us,us
+2013-03-26T13:12:18.020Z,16.233,-98.181,12.5,5,mb,296,96.1,,0.81,us,usb000fssk,2022-07-24T21:40:33.903Z,"1 km ESE of Corralero, Mexico",earthquake,,3.7,,239,reviewed,us,us
+2013-03-26T13:04:48.100Z,16.184,-98.152,10,5.5,mww,524,85.7,,0.79,us,usb000fssd,2022-07-24T21:39:15.095Z,"7 km SSE of Corralero, Mexico",earthquake,,,,,reviewed,us,us
+2013-02-20T21:23:08.560Z,18.552,-103.714,18,5.6,mww,456,90.4,,1.09,us,us2013lwcv,2022-05-03T16:07:09.573Z,"13 km W of La Placita de Morelos, Mexico",earthquake,,,,,reviewed,us,us
+2013-01-15T19:20:27.700Z,16.491,-98.491,12.2,5,mb,418,96.4,,,us,usp000jyf0,2022-05-03T16:03:38.628Z,"6 km SE of El Pitahayo, Mexico",earthquake,,,,295,reviewed,unm,us
+2012-11-15T09:20:21.910Z,18.346,-100.382,53,6.1,mww,576,45.2,,1.18,us,usp000jvmk,2022-05-03T15:58:10.529Z,"8 km N of San José Poliutla, Mexico",earthquake,,,,,reviewed,us,us
+2012-09-29T07:11:12.930Z,16.304,-98.393,12,5.5,mwb,466,81.5,,0.81,us,usp000jt7t,2024-06-17T20:14:07.109Z,"3 km SSW of Santo Domingo Armenta, Mexico",earthquake,,,,,reviewed,us,us
+2012-09-22T12:29:58.000Z,16.262,-98.281,6.4,5.4,mb,452,71.3,,,us,usp000jsqj,2022-05-03T15:50:42.523Z,"6 km SSW of El Ciruelo, Mexico",earthquake,,,,299,reviewed,unm,us
+2012-07-24T05:25:28.700Z,16.266,-98.307,5.4,5.2,mb,454,81.5,,,us,usp000jpcu,2022-05-03T15:44:31.930Z,"7 km SW of El Ciruelo, Mexico",earthquake,,,,297,reviewed,unm,us
+2012-05-01T16:37:58.800Z,18.251,-101.085,51.1,5.7,mww,568,29.9,,,us,usp000jjva,2022-05-03T15:38:25.339Z,"19 km W of Placeres del Oro, Mexico",earthquake,,,,,reviewed,unm,us
+2012-04-13T13:06:28.400Z,16.207,-98.145,16,5,mb,259,85.7,,,us,usp000jhv5,2022-05-03T15:36:18.645Z,"5 km SE of Corralero, Mexico",earthquake,,,,35,reviewed,unm,us
+2012-04-13T10:10:04.620Z,16.236,-98.138,15.1,5.2,mwc,415,85.7,,1.04,us,usp000jhut,2024-06-17T19:07:25.414Z,"5 km E of Corralero, Mexico",earthquake,,5.4,,,reviewed,us,gcmt
+2012-04-11T22:55:10.250Z,18.229,-102.689,20,6.5,mwb,599,54.1,,0.98,us,usp000jhpj,2022-05-03T15:36:02.702Z,"41 km NW of El Habillal, Mexico",earthquake,,,,,reviewed,us,us
+2012-04-02T23:55:00.120Z,16.281,-98.572,10,5,mb,217,96.4,,0.97,us,usp000jh5r,2014-11-07T01:47:25.183Z,"14 km SSW of Montecillos, Mexico",earthquake,,,,169,reviewed,us,us
+2012-04-02T17:36:42.060Z,16.395,-98.316,9,6,mww,557,46.9,,0.89,us,usp000jh52,2022-05-03T15:35:28.610Z,"7 km SSW of Santa María Cortijo, Mexico",earthquake,,,,,reviewed,us,us
+2012-04-01T22:23:48.000Z,16.46,-98.54,20,5.3,mb,382,86.1,,,us,usp000jh40,2022-05-03T15:34:52.133Z,"5 km NNW of San Nicolás, Mexico",earthquake,,,,273,reviewed,unm,us
+2012-03-22T16:46:47.790Z,16.334,-98.343,27.7,5.1,mb,406,47.8,,0.83,us,usp000jgmz,2022-05-03T15:34:24.894Z,"3 km E of Santo Domingo Armenta, Mexico",earthquake,,4.6,,299,reviewed,us,us
+2012-03-21T11:36:14.800Z,16.511,-98.504,20,5,mb,265,96.5,,,us,usp000jgka,2022-05-03T15:34:22.224Z,"3 km SE of El Pitahayo, Mexico",earthquake,,,,196,reviewed,unm,us
+2012-03-21T02:54:40.000Z,16.46,-98.4,15,5,mb,338,111.1,,,us,usp000jgjj,2022-05-03T15:34:19.748Z,"2 km SE of Cuajinicuilapa, Mexico",earthquake,,,,258,reviewed,unm,us
+2012-03-20T22:25:40.070Z,16.273,-98.694,10,5,mb,274,96.4,,0.79,us,usp000jgj5,2014-11-07T01:47:17.338Z,"24 km SW of San Nicolás, Mexico",earthquake,,,,222,reviewed,us,us
+2012-03-20T20:14:39.990Z,16.478,-97.987,24.6,5.1,mb,350,82.6,,1.07,us,usp000jgj0,2022-05-03T15:37:44.890Z,"1 km S of San Pedro Atoyac, Mexico",earthquake,,8,,266,reviewed,us,us
+2012-03-20T19:02:38.900Z,15.899,-98.715,3.9,5.2,mb,462,86.1,,,us,usp000jghs,2014-11-07T01:47:17.177Z,"56 km SSW of Santiago Tepextla, Mexico",earthquake,,,,298,reviewed,unm,us
+2012-03-20T18:35:36.950Z,16.228,-98.22,10,5.1,mb,236,85.8,,1.04,us,usp000jghq,2022-05-03T15:34:14.375Z,"3 km WSW of Corralero, Mexico",earthquake,,,,156,reviewed,us,us
+2012-03-20T18:22:33.100Z,16.289,-98.172,10,5.3,mb,290,85.8,,1,us,usp000jghp,2022-05-03T15:37:43.726Z,"5 km NNE of Corralero, Mexico",earthquake,,,,193,reviewed,us,us
+2012-03-20T18:02:47.440Z,16.493,-98.231,20,7.4,mww,672,37.9,,0.98,us,usp000jghj,2022-05-03T15:34:09.063Z,"6 km E of Santiago Llano Grande, Mexico",earthquake,,,,,reviewed,us,us
+2011-12-11T01:47:25.560Z,17.986,-99.789,59,6.5,mww,578,38.6,,0.93,us,usp000jc1y,2024-02-23T00:54:36.837Z,"6 km SSW of Nuevo Balsas, Mexico",earthquake,,,,,reviewed,us,us
+2011-07-09T12:42:29.120Z,16.057,-96.055,26.4,5.1,mwc,245,62.4,,0.87,us,usp000j4en,2022-04-08T21:53:47.438Z,"2 km NE of Merced del Potrero, Mexico",earthquake,,4.8,,,reviewed,us,gcmt
+2011-06-02T16:29:46.220Z,18.692,-101.319,81.8,5.3,mwr,280,88.9,,1.02,us,usp000j2ke,2025-12-22T16:04:08.076Z,"24 km N of Aratichanguío, Mexico",earthquake,,3.4,,,reviewed,us,us
+2011-05-05T13:24:07.840Z,16.784,-98.618,24,5.7,mww,339,49.1,,1,us,usp000j11a,2022-07-19T14:20:58.885Z,"2 km SE of Cuanacaxtitlán, Mexico",earthquake,,,,,reviewed,us,us
+2011-04-26T11:07:27.040Z,16.851,-99.471,11,5.5,mwb,350,75.3,,0.88,us,usp000j0mf,2022-07-19T13:33:51.514Z,"8 km NNE of El Cortés, Mexico",earthquake,,,,,reviewed,us,us
+2011-02-25T13:07:26.500Z,17.843,-95.007,122.7,5.9,mww,504,36.2,,1.02,us,usp000hv2c,2022-07-19T06:19:37.808Z,"3 km NNE of Aguilera, Mexico",earthquake,,2.5,,,reviewed,us,us
+2010-11-24T14:01:18.960Z,16.418,-98.628,22.9,5,mb,173,134.8,,0.95,us,usp000hq1t,2014-11-07T01:42:57.525Z,"11 km W of San Nicolás, Mexico",earthquake,,,,113,reviewed,us,us
+2010-06-30T07:22:27.690Z,16.396,-97.782,20,6.3,mwc,344,71.6,,0.92,us,usp000heqj,2024-04-11T12:43:47.969Z,"2 km ESE of San Agustín Chayuco, Mexico",earthquake,,,,,reviewed,us,gcmt
+2010-05-25T23:36:14.590Z,17.145,-101.159,4.4,5.1,mwc,196,88.3,,,us,usp000hd5z,2022-07-16T14:14:03.803Z,"23 km SSW of Papanoa, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2010-04-20T02:28:56.700Z,16.297,-98.234,21.2,5,mwc,256,85.8,,0.88,us,usp000hbpa,2022-07-16T11:19:37.603Z,"3 km SE of El Ciruelo, Mexico",earthquake,,4.8,,,reviewed,us,gcmt
+2010-04-16T10:01:09.890Z,16.385,-98.179,25.7,5.3,mwb,190,85.8,,0.83,us,usp000hbg8,2022-07-16T10:50:17.065Z,"7 km W of Mancuernas, Mexico",earthquake,,4.4,,,reviewed,us,us
+2010-04-14T05:16:14.400Z,17.969,-101.735,42.6,5.2,mb,299,96.5,,,us,usp000hbcd,2022-07-16T10:44:15.227Z,"7 km ESE of La Unión, Mexico",earthquake,,,,178,reviewed,unm,us
+2010-03-19T20:48:46.130Z,17.395,-100.985,20.4,5,mwc,183,128.1,,1.24,us,usp000h9q6,2022-05-02T21:48:28.902Z,"7 km ENE of Coyuquilla Norte, Mexico",earthquake,,3.5,,,reviewed,us,gcmt
+2010-02-09T00:47:40.700Z,15.893,-96.861,39.8,5.7,mwc,413,82.2,,,us,usp000h73d,2022-07-16T02:08:00.038Z,"8 km E of Santa María Colotepec, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2009-10-29T10:52:56.470Z,18.911,-95.538,16.4,5.7,mwc,312,31.9,,1.03,us,usp000h3hu,2022-07-15T20:11:28.978Z,"27 km NE of Paso Nacional, Mexico",earthquake,,6.9,,,reviewed,us,gcmt
+2009-09-08T05:14:32.600Z,17.544,-95.753,99.7,5.1,mwc,306,52.1,,,us,usp000h1b2,2025-12-22T15:39:31.112Z,"5 km SSE of San Lorenzo, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2009-08-15T13:22:43.420Z,18.183,-100.366,56.9,5.5,mwc,285,71.7,,1.07,us,usp000h0ds,2022-07-15T15:59:57.299Z,"3 km NE of San Miguel Totolapan, Mexico",earthquake,,,,,reviewed,us,gcmt
+2009-05-22T19:24:18.500Z,18.114,-98.457,62.3,5.6,mwc,458,34.3,,,us,usp000gxdm,2022-07-15T10:26:23.168Z,"3 km E of Chila de la Sal, Mexico",earthquake,,,,,reviewed,unm,us
+2009-04-27T16:46:28.570Z,17.032,-99.446,35,5.8,mwc,400,44.5,,0.95,us,usp000gwmq,2022-07-15T08:58:17.037Z,"2 km WNW of Pochotillo, Mexico",earthquake,,,,,reviewed,us,us
+2009-04-11T09:22:11.440Z,18.166,-102.135,29.5,5.1,mwc,231,89.3,,1.08,us,usp000gw0x,2022-07-15T07:47:11.910Z,"17 km NNE of Zacatula, Mexico",earthquake,,,,,reviewed,us,gcmt
+2009-03-27T08:48:16.900Z,17.399,-100.8,22.4,5.3,mwb,290,88.1,,,us,usp000gvfg,2022-07-15T06:32:33.559Z,"17 km NNE of San Luis San Pedro, Mexico",earthquake,,,,,reviewed,unm,us
+2009-01-31T13:24:57.900Z,17.66,-101.939,4.5,5.1,mwc,108,99.4,,,us,usp000gtam,2022-07-15T02:53:39.564Z,"30 km SW of Lagunillas, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2008-10-20T05:01:04.610Z,17.462,-101.003,26.2,5.2,mwc,262,70.9,,0.94,us,usp000gkmy,2022-05-02T19:46:26.711Z,"10 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,gcmt
+2008-09-23T22:46:15.900Z,16.448,-100.111,9.6,5,mwc,215,60.9,,,us,usp000ghkm,2022-05-02T19:46:08.161Z,"49 km SSW of Acapulco de Juárez, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2008-07-30T10:23:33.900Z,15.979,-96.095,49.7,5.3,mwc,342,33.8,,,us,usp000gdf7,2022-05-02T19:43:36.738Z,"4 km NW of Santa María Xadani, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2008-05-17T20:04:10.080Z,16.424,-97.827,29.7,5.2,mwc,216,81.9,,0.96,us,usp000g73q,2022-05-02T20:45:10.905Z,"3 km NW of San Agustín Chayuco, Mexico",earthquake,,,,,reviewed,us,gcmt
+2008-04-29T10:56:44.190Z,18.65,-101.083,75.7,5.3,mwc,385,44.3,,1.07,us,usp000g53t,2025-12-22T15:29:03.206Z,"19 km W of Huetamo de Núñez, Mexico",earthquake,,3.2,,,reviewed,us,gcmt
+2008-04-28T00:06:28.100Z,17.846,-100.171,56.9,5.8,mwc,585,41.5,,,us,usp000g502,2022-07-13T19:34:55.793Z,"21 km WNW of Tlacotepec, Mexico",earthquake,,,,,reviewed,unm,us
+2007-11-26T21:56:12.800Z,18.654,-101.703,53,5.8,mwc,471,29.9,,,us,usp000ftch,2022-07-14T00:40:34.025Z,"5 km W of Churumuco de Morelos, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-11-06T06:35:43.390Z,17.108,-99.894,29.9,5.4,mwc,300,71.1,,0.89,us,usp000fs1r,2022-07-14T01:39:07.811Z,"5 km NNE of Platanillo, Mexico",earthquake,,,,,reviewed,us,gcmt
+2007-08-26T17:18:51.420Z,16.425,-97.732,36.7,5.1,mwc,182,71.6,,0.91,us,usp000fkrh,2022-05-02T20:26:51.891Z,"8 km ENE of San Agustín Chayuco, Mexico",earthquake,,2.8,,,reviewed,us,gcmt
+2007-07-28T13:45:24.300Z,18.052,-100.843,48.6,5.1,mwc,292,61.3,,,us,usp000fh9s,2025-12-22T15:24:28.531Z,"19 km S of Patambó, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-05-23T19:09:15.130Z,21.892,-96.359,10,5.6,mwc,362,33.2,,1.02,us,usp000fck7,2025-02-24T23:34:20.547Z,"Gulf of America",earthquake,,,,,reviewed,us,gcmt
+2007-05-04T10:21:10.700Z,17.201,-96.842,70.5,5,mwc,219,67.3,,,us,usp000fb78,2022-05-02T20:15:50.832Z,"2 km W of Reyes Etla, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-04-28T13:56:36.000Z,16.945,-99.825,10.1,5.1,mwc,148,50.1,,,us,usp000fat7,2022-07-14T06:29:44.413Z,"1 km N of Los Órganos de San Agustín, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-04-19T10:02:10.900Z,17.247,-101.296,23.8,5.3,mwc,313,70.6,,,us,usp000fa1r,2022-05-02T20:11:41.394Z,"28 km WSW of Papanoa, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-04-13T14:42:26.600Z,18.177,-102.735,10,5,mwc,214,89.7,,1.04,us,usp000f9ma,2022-05-02T20:10:50.152Z,"42 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,gcmt
+2007-04-13T08:43:47.500Z,17.135,-100.31,33.9,5.3,mwc,364,46.7,,,us,usp000f9kn,2022-05-02T20:10:38.918Z,"4 km ENE of Cacalutla, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-04-13T05:42:23.030Z,17.302,-100.198,34,6,mwb,487,26.7,,1.02,us,usp000f9kc,2022-07-14T06:51:34.262Z,"5 km SE of El Paraíso, Mexico",earthquake,,,,,reviewed,us,us
+2007-03-30T19:00:37.700Z,15.897,-99.051,22.5,5.3,mwc,143,80.9,,,us,usp000f7wj,2022-05-02T20:05:32.301Z,"75 km SSW of Barra de Tecoanapa, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2007-03-15T13:13:00.400Z,16.071,-97.242,12.7,5.3,mwc,230,78.1,,,us,usp000f6rz,2022-05-02T20:03:04.525Z,"5 km SW of Cerro del Aire, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2006-11-08T17:18:47.300Z,16.03,-96.566,46.3,5.1,mwc,294,65.6,,,us,usp000ewwy,2022-05-02T18:31:39.058Z,"5 km ENE of San Agustín Loxicha, Mexico",earthquake,,,,,reviewed,unm,gcmt
+2006-08-19T05:41:28.500Z,16.231,-97.257,32.2,5.6,mwb,306,71.7,,0.83,us,usp000er9q,2022-07-14T10:12:26.592Z,"1 km ENE of Santiago Yaitepec, Mexico",earthquake,,,,,reviewed,us,us
+2006-08-13T15:14:25.060Z,18.458,-103.476,21.4,5.3,mwc,260,70.2,,1.18,us,usp000eqvq,2022-05-02T18:26:10.287Z,"14 km SE of La Placita de Morelos, Mexico",earthquake,,,,,reviewed,us,hrv
+2006-08-11T14:38:37.280Z,18.508,-101.169,64.2,5.4,mb,246,46.1,,1.05,us,usp000eqqf,2014-11-07T01:29:56.886Z,"20 km W of Zirándaro de los Chávez, Mexico",earthquake,,,,126,reviewed,us,us
+2006-08-11T14:30:40.150Z,18.541,-101.048,56,6.1,mwb,532,19.5,,1.02,us,usp000eqqe,2022-07-14T10:19:14.166Z,"10 km NW of Zirándaro de los Chávez, Mexico",earthquake,,,,,reviewed,us,us
+2006-07-07T17:43:32.350Z,16.068,-95.966,6.8,5,mwc,181,37.4,,1.1,us,usp000en35,2022-05-02T18:22:53.990Z,"11 km ENE of Merced del Potrero, Mexico",earthquake,,8.4,,,reviewed,us,hrv
+2006-05-01T03:17:40.100Z,15.916,-98.82,22.7,5,mb,121,104,,,us,usp000efxf,2014-11-07T01:28:59.774Z,"61 km SW of Santiago Tepextla, Mexico",earthquake,,,,42,reviewed,unm,us
+2006-02-20T10:54:23.700Z,18.145,-100.754,51.1,5.2,mwc,224,59.8,,,us,usp000eaek,2022-05-02T18:12:59.228Z,"15 km SE of Patambó, Mexico",earthquake,,,,,reviewed,unm,hrv
+2005-12-02T17:58:13.700Z,16.233,-98.534,20,5,mwc,118,128.3,,,us,usp000e5ce,2022-05-02T18:07:48.480Z,"15 km SW of Santiago Tepextla, Mexico",earthquake,,,,,reviewed,unm,hrv
+2005-09-24T01:14:03.310Z,18.154,-96.835,70,5,mwc,221,65.3,,0.99,us,usp000e020,2025-12-19T23:23:03.968Z,"0 km N of Santa Cruz de Juárez, Mexico",earthquake,,,,,reviewed,us,hrv
+2005-08-14T02:51:59.610Z,16.207,-98.139,18.6,5.4,mwc,331,71.3,,0.77,us,usp000dx9z,2022-07-14T15:06:59.312Z,"6 km ESE of Corralero, Mexico",earthquake,,4.3,,,reviewed,us,hrv
+2004-11-15T02:51:23.640Z,16.222,-98.396,29.8,5.2,mwc,133,119.1,,0.95,us,usp000d8g9,2022-05-02T17:33:10.189Z,"12 km S of Santo Domingo Armenta, Mexico",earthquake,,6.7,,,reviewed,us,hrv
+2004-11-15T02:38:44.480Z,16.377,-98.34,30.7,5.3,mwc,222,99.9,,0.89,us,usp000d8g6,2022-05-02T17:33:08.458Z,"6 km NE of Santo Domingo Armenta, Mexico",earthquake,,4.8,,,reviewed,us,hrv
+2004-08-07T11:49:12.580Z,17.196,-95.218,100.9,5.9,mwb,423,38.6,,0.94,us,usp000d1pm,2022-05-02T17:22:08.474Z,"17 km WNW of Palomares, Mexico",earthquake,,,,,reviewed,us,us
+2004-06-14T22:54:21.320Z,16.337,-97.845,10,5.9,mwb,346,66.1,,0.92,us,usp000cxxg,2022-05-02T17:14:01.541Z,"0 km W of Santa Catarina Mechoacán, Mexico",earthquake,,,,,reviewed,us,us
+2004-05-21T04:10:01.190Z,18.271,-102.811,52.8,5.2,mwc,300,70.5,,0.91,us,usp000cvr1,2022-05-02T17:12:18.187Z,"51 km S of Aguililla, Mexico",earthquake,,3.3,,,reviewed,us,hrv
+2004-03-13T14:02:29.210Z,18.05,-103.373,30.1,5.1,mwc,185,120.2,,1.17,us,usp000cpuv,2022-05-02T15:54:45.368Z,"58 km SSE of La Placita de Morelos, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-02-06T19:11:32.830Z,18.229,-102.77,28.1,5.1,mwc,206,63.3,,1.29,us,usp000ckjv,2022-05-02T17:02:07.567Z,"48 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-01-17T21:13:09.530Z,17.745,-95.501,110.4,5.2,mwc,321,85.5,,0.88,us,usp000cj4f,2025-12-19T23:10:35.737Z,"6 km SE of Abasolo del Valle, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-01-13T21:28:57.760Z,16.108,-96.937,28,5.5,mwc,260,100.4,,0.84,us,usp000chug,2022-05-02T17:00:14.998Z,"15 km SSW of San Jerónimo Coatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-01-13T19:50:19.150Z,16.068,-96.947,28.6,5.1,mwc,196,98,,0.8,us,usp000chu5,2022-05-02T17:00:08.975Z,"14 km ESE of San Gabriel Mixtepec, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-01-01T23:58:01.550Z,17.42,-101.315,28.3,5.7,mwc,164,73.6,,1.01,us,usp000cgtd,2022-05-02T16:58:15.005Z,"13 km SSW of Petatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+2004-01-01T23:31:50.050Z,17.488,-101.303,29.4,6.1,mwc,361,74.1,,0.97,us,usp000cgt8,2022-05-02T16:58:13.147Z,"6 km SW of Petatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+2003-11-19T13:50:30.760Z,18.167,-99.305,90.1,5.3,mwc,148,110.4,,1,us,usp000cde1,2025-12-19T23:09:36.209Z,"11 km WSW of Paso Morelos, Mexico",earthquake,,,,,reviewed,us,hrv
+2003-07-21T23:53:41.510Z,18.62,-101.037,61.6,5.2,mwc,235,41.6,,1.17,us,usp000c31p,2025-12-19T23:07:03.795Z,"14 km W of Huetamo de Núñez, Mexico",earthquake,,,,,reviewed,us,hrv
+2003-05-16T09:09:24.500Z,18.29,-101.261,68.3,5,mwc,233,47.5,,,us,usp000bxb1,2022-05-02T16:32:50.040Z,"1 km S of Guayameo, Mexico",earthquake,,,,,reviewed,unm,hrv
+2003-03-27T07:44:20.450Z,18.161,-101.763,33,5.2,mwc,158,90.7,,1.45,us,usp000btm3,2022-05-02T16:28:25.536Z,"17 km S of Coahuayutla de Guerrero, Mexico",earthquake,,,,,reviewed,us,hrv
+2003-01-10T02:08:02.800Z,16.968,-100.301,29.6,5.2,mwc,197,,,,us,usp000bnb5,2022-05-02T16:22:09.419Z,"9 km SW of El Papayo, Mexico",earthquake,,,,,reviewed,unm,hrv
+2002-12-10T03:09:40.110Z,17.884,-100.909,85.5,5.5,mwc,206,,,0.93,us,usp000bke5,2022-05-02T16:19:13.282Z,"37 km S of Patambó, Mexico",earthquake,,5.6,,,reviewed,us,hrv
+2002-11-08T23:20:41.770Z,16.337,-97.993,25.6,5.3,mwc,144,,,1.09,us,usp000bh46,2022-05-02T16:15:59.632Z,"3 km W of Rancho Viejo, Mexico",earthquake,,,,,reviewed,us,hrv
+2002-11-04T10:00:47.150Z,17.49,-101.432,33,5.2,mb,211,,,1.06,us,usp000bg97,2014-11-07T01:16:58.215Z,"12 km S of Los Achotes, Mexico",earthquake,,,,83,reviewed,us,us
+2002-09-27T07:04:58.100Z,17.163,-100.59,36.4,5.1,mwc,263,,,,us,usp000bd77,2022-05-02T16:09:25.403Z,"5 km E of Tetitlán, Mexico",earthquake,,,,,reviewed,unm,hrv
+2002-09-25T18:14:48.500Z,16.87,-100.113,5.5,5.3,mwc,260,,,,us,usp000bd3k,2022-05-02T16:09:04.002Z,"8 km SSW of Los Mogotes, Mexico",earthquake,,,,,reviewed,unm,hrv
+2002-09-21T02:12:50.790Z,18.523,-101.259,60.9,5,mb,221,,,1.3,us,usp000bcsd,2014-11-07T01:16:33.175Z,"11 km ENE of Aratichanguío, Mexico",earthquake,,,,102,reviewed,us,us
+2002-08-30T21:11:43.600Z,16.689,-100.944,16.1,5.3,mwc,171,,,,us,usp000bay7,2025-12-19T23:02:23.433Z,"60 km SSW of Nuxco, Mexico",earthquake,,,,,reviewed,unm,hrv
+2002-08-27T17:08:50.360Z,16.305,-97.319,46.9,5,mwc,193,,,1,us,usp000barn,2022-05-02T16:06:47.606Z,"0 km NNW of San Juan Quiahue, Mexico",earthquake,,4.3,,,reviewed,us,hrv
+2002-08-11T02:00:36.230Z,15.982,-98.448,10,5,mb,127,,,0.95,us,usp000b9pa,2014-11-07T01:16:14.909Z,"39 km S of Santo Domingo Armenta, Mexico",earthquake,,,,43,reviewed,us,us
+2002-06-19T21:50:08.300Z,16.325,-97.941,33,5.3,mwc,237,,,1.16,us,usp000b6gy,2022-05-02T16:01:37.316Z,"2 km W of San Andrés Huaxpaltepec, Mexico",earthquake,,,,,reviewed,us,hrv
+2002-06-07T17:00:51.530Z,16.107,-96.749,33,5.6,mwc,310,,,1.07,us,usp000b5qv,2022-05-02T16:00:29.958Z,"4 km N of Santa Catarina Loxicha, Mexico",earthquake,,,,,reviewed,us,hrv
+2002-06-07T16:02:57.400Z,16.076,-96.698,33,5.3,mwc,168,,,1.12,us,usp000b5qs,2022-05-02T16:00:24.573Z,"6 km E of Santa Catarina Loxicha, Mexico",earthquake,,,,,reviewed,us,hrv
+2002-05-28T21:33:55.180Z,16.438,-99.359,9.1,5.1,mb,172,,,1.08,us,usp000b551,2014-11-07T01:15:40.988Z,"38 km SSE of Llano de la Puerta, Mexico",earthquake,,2.3,,66,reviewed,us,us
+2002-04-18T17:57:27.700Z,17.233,-101.25,33,5.9,mwc,153,,,1.23,us,usp000b2pf,2022-05-02T15:50:04.982Z,"24 km WSW of Papanoa, Mexico",earthquake,,,,,reviewed,us,hrv
+2002-04-18T11:00:41.290Z,17.17,-101.351,20,5.1,mwc,117,,,,us,usp000b2nk,2022-05-02T16:13:51.545Z,"37 km WSW of Papanoa, Mexico",earthquake,,,,,reviewed,unm,hrv
+2002-04-18T05:02:46.190Z,16.985,-100.865,24.9,6.8,mwc,292,,,1.13,us,usp000b2mv,2022-05-02T15:49:53.019Z,"27 km SSW of Nuxco, Mexico",earthquake,,3.4,,,reviewed,us,hrv
+2002-01-30T08:42:03.400Z,18.194,-95.908,108.9,5.9,mwc,411,,,0.87,us,usp000axex,2022-05-02T15:43:52.208Z,"5 km SSW of Tuxtilla, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-11-10T17:09:16.470Z,16.219,-98.054,17.8,5.5,mwc,190,,,0.86,us,usp000asmb,2022-04-29T19:47:47.355Z,"4 km SSW of El Carrizo, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-10-29T05:23:10.790Z,17.109,-100.031,10,5.1,mwc,196,,,1.13,us,usp000aruv,2022-04-29T19:39:33.220Z,"Guerrero, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-10-08T03:39:17.980Z,17.044,-99.996,10,5.9,mwc,283,,,1.36,us,usp000aqek,2022-04-29T19:48:02.540Z,"3 km WSW of Tixtlancingo, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-09-04T03:26:29.530Z,16.358,-98.144,33,5.2,mwc,142,,,0.94,us,usp000anm1,2022-04-29T19:30:53.683Z,"5 km SW of Mancuernas, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-06-16T03:46:18.570Z,18.064,-102.662,28.6,5.3,mwc,211,,,1.11,us,usp000agrx,2022-04-29T19:22:17.332Z,"31 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,hrv
+2001-03-06T21:57:54.170Z,17.187,-99.942,33,5.1,mb,151,,,1.06,us,usp000ab14,2024-01-17T20:47:13.168Z,"7 km E of Las Compuertas, Mexico",earthquake,,,,60,reviewed,us,us
+2001-03-05T10:17:34.390Z,17.197,-99.946,42.1,5,mb,150,,,1.07,us,usp000aayb,2022-04-29T19:14:43.588Z,"6 km E of Las Compuertas, Mexico",earthquake,,3.5,,51,reviewed,us,us
+2001-01-26T14:19:38.760Z,16.342,-97.769,44.7,5,mb,131,,,0.88,us,usp000a8f1,2022-04-29T19:19:19.477Z,"3 km NW of Santiago Tetepec, Mexico",earthquake,,6.5,,46,reviewed,us,us
+2000-12-01T14:07:44.100Z,18.204,-102.35,33,5.4,mwc,217,,,1.34,us,usp000a5b0,2022-04-29T19:00:41.085Z,"18 km SSW of Arteaga, Mexico",earthquake,,,,,reviewed,us,hrv
+2000-08-09T11:41:47.900Z,18.198,-102.48,45.8,6.5,mwc,481,,,1.05,us,usp0009y65,2022-04-29T18:47:52.476Z,"24 km NNW of El Habillal, Mexico",earthquake,,2.2,,,reviewed,us,hrv
+2000-07-21T06:13:41.330Z,18.414,-98.916,80.1,5.9,mwb,321,,,1.17,us,usp0009wwu,2022-04-29T18:45:41.411Z,"12 km NW of Jolalpan, Mexico",earthquake,,,,,reviewed,us,us
+2000-04-11T18:35:44.760Z,18.346,-102.47,78.5,5.2,mwc,,,,1.16,us,usp0009r5m,2022-04-29T18:36:47.585Z,"18 km W of Arteaga, Mexico",earthquake,,11.6,,,reviewed,us,hrv
+1999-12-29T05:19:46.910Z,18.244,-101.432,69.9,5.9,mwc,,,,1.01,us,usp0009kdx,2022-04-29T18:22:27.426Z,"19 km WSW of Guayameo, Mexico",earthquake,,,,,reviewed,us,hrv
+1999-09-30T16:31:15.690Z,16.059,-96.931,60.6,7.5,mwc,,,,0.93,us,usp0009f7v,2022-04-29T18:19:21.160Z,"15 km W of San Baltazar Loxicha, Mexico",earthquake,,2.5,,,reviewed,us,hrv
+1999-08-15T04:11:42.090Z,19.101,-103.094,85.7,5.3,mwc,,,,1.04,us,usp0009d24,2025-12-19T22:40:59.553Z,"27 km WSW of Los Olivos, Mexico",earthquake,,,,,reviewed,us,hrv
+1999-06-21T17:43:04.520Z,18.324,-101.539,68.7,6.3,mwc,,,,1.07,us,usp0009a9e,2022-04-29T19:19:53.745Z,"20 km E of Coahuayutla de Guerrero, Mexico",earthquake,,,,,reviewed,us,hrv
+1999-06-15T20:42:05.930Z,18.386,-97.436,70,7,mwc,,,,1.06,us,usp00099y6,2022-04-29T18:13:20.061Z,"1 km SE of Texcala, Mexico",earthquake,,,,,reviewed,us,hrv
+1999-04-04T10:37:00.570Z,16.097,-97.341,33,5.4,mwc,,,,0.93,us,usp00095sg,2022-04-29T18:06:32.207Z,"Oaxaca, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-07-12T08:11:28.180Z,16.954,-100.295,33,5.5,mwc,,,,1.08,us,usp0008rc8,2022-04-29T17:34:45.158Z,"10 km SSW of El Papayo, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-07-11T05:21:13.440Z,17.39,-101.349,33,5.5,mwc,,,,1.07,us,usp0008rah,2022-04-29T17:34:36.620Z,"18 km SSW of Petatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-07-05T19:55:04.940Z,16.957,-99.987,10,5.3,mwc,,,,1.29,us,usp0008r0a,2022-04-29T17:33:54.463Z,"1 km WSW of Bajos del Ejido, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-05-16T17:41:55.290Z,17.328,-101.235,33,5.2,mwc,,,,1.03,us,usp0008n7b,2022-04-29T17:27:04.117Z,"19 km WSW of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-05-09T17:03:12.250Z,17.519,-101.31,33,5.2,mwc,,,,1.29,us,usp0008ms7,2022-04-29T17:26:34.480Z,"4 km WSW of Petatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-04-20T22:59:14.770Z,18.525,-101.203,67.3,6,mwb,,,,0.98,us,usp0008knk,2022-04-29T17:24:30.629Z,"17 km ENE of Aratichanguío, Mexico",earthquake,,,,,reviewed,us,us
+1998-03-05T04:12:53.090Z,16.072,-98.284,10,5.3,mwc,,,,1.09,us,usp0008gyv,2022-04-29T17:20:53.487Z,"21 km SSW of Corralero, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-03-03T07:38:22.150Z,15.969,-96.134,33,5.2,mwc,,,,1.05,us,usp0008gvk,2022-04-29T17:20:41.162Z,"6 km NE of San Miguel del Puerto, Mexico",earthquake,,,,,reviewed,us,hrv
+1998-02-03T03:02:00.240Z,15.883,-96.298,33,6.4,mwb,,,,0.98,us,usp0008fbv,2022-04-29T17:18:19.616Z,"2 km E of Benito Juárez, Mexico",earthquake,,,,,reviewed,us,us
+1997-12-22T05:22:05.620Z,17.297,-101.036,10,5.1,mb,,,,1.22,us,usp0008d0u,2022-04-29T17:13:53.656Z,"3 km S of Papanoa, Mexico",earthquake,,,,53,reviewed,us,us
+1997-12-16T11:48:29.810Z,16.107,-98.852,10,6,mwc,,,,1.11,us,usp0008crc,2022-04-29T17:13:07.274Z,"46 km SSW of Barra de Tecoanapa, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-12-16T11:44:03.120Z,16.188,-98.842,10,5.1,mb,,,,1.24,us,usp0008crb,2014-11-07T01:04:08.085Z,"37 km SSW of Barra de Tecoanapa, Mexico",earthquake,,,,33,reviewed,us,us
+1997-09-15T15:38:23.590Z,16.242,-98.376,33,5.2,mb,,,,0.96,us,usp00087k0,2014-11-07T01:03:29.102Z,"9 km S of Santo Domingo Armenta, Mexico",earthquake,,,,50,reviewed,us,us
+1997-08-27T00:13:24.940Z,17.012,-99.382,33,5,mb,,,,1.54,us,usp00086rv,2014-11-07T01:03:20.970Z,"1 km NNW of El Limón, Mexico",earthquake,,,,9,reviewed,us,us
+1997-07-19T14:22:08.750Z,16.333,-98.216,33,6.9,mwb,,,,1.16,us,usp000851t,2022-04-29T16:58:04.110Z,"4 km ENE of El Ciruelo, Mexico",earthquake,,,,,reviewed,us,us
+1997-05-22T07:50:53.520Z,18.684,-101.604,70,6.5,mwc,,,,1.05,us,usp00082pq,2022-04-29T16:54:55.370Z,"5 km ENE of Churumuco de Morelos, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-05-08T15:58:27.050Z,17.454,-100.134,37.5,5,mb,,,,1.11,us,usp00081y0,2014-11-07T01:02:45.313Z,"9 km S of Pueblo Viejo, Mexico",earthquake,,,,25,reviewed,us,us
+1997-04-03T21:22:28.370Z,18.144,-98.221,56.6,5.2,mwc,,,,1.03,us,usp0007zww,2022-04-29T16:48:24.072Z,"7 km SSE of Piaxtla, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-01-27T16:47:32.760Z,17.846,-102.725,26,5,mb,,,,1,us,usp0007wej,2014-11-07T01:02:00.638Z,"41 km WSW of El Habillal, Mexico",earthquake,,,,39,reviewed,us,us
+1997-01-21T21:19:58.930Z,16.413,-98.035,33,5.5,mwc,,,,0.99,us,usp0007w6c,2022-04-29T16:41:39.925Z,"3 km E of San Miguel Tlacamama, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-01-16T21:41:07.070Z,18.098,-102.675,28.3,5.5,mwc,,,,1.02,us,usp0007vyb,2022-04-29T16:40:52.696Z,"33 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,hrv
+1997-01-11T20:28:26.020Z,18.219,-102.756,33,7.2,mwb,,,,1.09,us,usp0007vrx,2022-10-21T21:12:52.521Z,"46 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,us
+1996-07-18T08:16:43.870Z,17.6,-100.963,33,5.4,mwc,,,,0.9,us,usp0007m6r,2022-04-29T20:25:28.749Z,"26 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-07-15T21:23:34.080Z,17.6,-100.965,18.3,6.8,mwb,,,,1.2,us,usp0007m35,2022-04-29T20:25:10.676Z,"26 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1996-04-23T06:53:35.390Z,17.28,-101.363,33,5.6,mwc,,,,1,us,usp0007ggh,2022-04-29T20:18:00.718Z,"30 km SSW of Petatlán, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-04-01T03:43:03.160Z,16.666,-95.835,57.4,5.2,mwc,,,,1.1,us,usp0007fkj,2022-04-29T20:16:02.030Z,"16 km ENE of Nejapa de Madero, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-03-27T12:34:48.830Z,16.413,-98.079,29,5.6,mwb,,,,0.9,us,usp0007fcd,2022-04-29T20:14:56.484Z,"1 km W of San Miguel Tlacamama, Mexico",earthquake,,,,,reviewed,us,us
+1996-03-20T18:08:41.830Z,15.98,-97.22,33,5.3,mwc,,,,1,us,usp0007f0y,2022-04-29T20:13:51.463Z,"9 km SSW of Santiago Cuixtla, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-03-20T04:53:27.000Z,15.96,-97.258,33,5.4,mwc,,,,1,us,usp0007f06,2022-04-29T20:13:50.144Z,"13 km SW of Santiago Cuixtla, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-03-19T17:12:43.070Z,15.85,-97.306,33,5.9,mwc,,,,1.1,us,usp0007ezh,2022-04-29T20:13:48.832Z,"21 km WSW of Bajos de Chila, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-03-13T21:04:17.990Z,16.704,-98.87,25.2,5.2,mwc,,,,1,us,usp0007epp,2022-04-29T20:13:32.741Z,"12 km SE of Coacoyulichán, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-02-26T07:33:38.210Z,15.826,-97.633,33,5.1,mb,,,,1.2,us,usp0007dyp,2014-11-07T00:59:58.849Z,"27 km S of Santa Rosa de Lima, Mexico",earthquake,,,,44,reviewed,us,us
+1996-02-26T01:37:34.380Z,15.933,-97.807,33,5.5,mw,,,,1.3,us,usp0007dy0,2022-04-29T20:12:26.522Z,"21 km SSW of San José del Progreso, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-02-25T14:27:30.960Z,16.155,-97.729,33,5.2,mb,,,,1.1,us,usp0007dwp,2022-04-29T17:51:15.985Z,"7 km NNW of San José del Progreso, Mexico",earthquake,,,,62,reviewed,us,us
+1996-02-25T09:17:57.040Z,16.122,-97.93,12.3,6.2,mwb,,,,1,us,usp0007dw5,2022-04-29T20:12:13.609Z,"7 km SE of Santa María Chico Ometepec, Mexico",earthquake,,,,,reviewed,us,us
+1996-02-25T04:17:09.390Z,15.963,-97.92,33,5.1,mb,,,,1.1,us,usp0007dva,2014-11-07T00:59:58.235Z,"23 km SSE of Santa María Chico Ometepec, Mexico",earthquake,,,,62,reviewed,us,us
+1996-02-25T03:08:15.870Z,15.978,-98.07,21.1,7.1,mw,,,,1.2,us,usp0007dv6,2022-04-29T20:11:57.058Z,"24 km SSW of Santa María Chico Ometepec, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-01-25T12:45:08.410Z,18.511,-102.129,76.5,5.5,mw,,,,1,us,usp0007bpy,2022-04-29T20:06:58.956Z,"17 km WSW of Las Cañas, Mexico",earthquake,,,,,reviewed,us,hrv
+1996-01-08T09:20:17.460Z,16.232,-98.201,33,5,mb,,,,1.1,us,usp0007amv,2014-11-07T00:59:37.825Z,"1 km WSW of Corralero, Mexico",earthquake,,,,54,reviewed,us,us
+1995-12-20T21:52:26.230Z,18.582,-101.071,76.6,5.3,mw,,,,1.1,us,usp00079aq,2025-12-19T23:04:26.702Z,"15 km NW of Zirándaro de los Chávez, Mexico",earthquake,,4.2,,,reviewed,us,hrv
+1995-10-30T14:47:54.690Z,16.46,-98.376,33,5.6,mw,,,,1,us,usp000760d,2022-04-29T19:56:26.982Z,"4 km ESE of Cuajinicuilapa, Mexico",earthquake,,,,,reviewed,us,hrv
+1995-09-16T03:20:06.990Z,16.653,-98.296,31,5.1,mb,,,,1.1,us,usp00073eg,2022-04-29T19:56:48.845Z,"0 km E of Huixtepec, Mexico",earthquake,,,,63,reviewed,us,us
+1995-09-14T14:04:31.430Z,16.779,-98.597,23,7.4,mwb,,,,1.2,us,usp00073c5,2022-04-29T19:56:45.416Z,"5 km N of Azoyú, Mexico",earthquake,,,,,reviewed,us,us
+1995-04-27T06:42:18.870Z,18.127,-101.642,36.9,5.2,mw,,,,1,us,usp0006we6,2022-04-29T17:28:40.746Z,"23 km SSE of Coahuayutla de Guerrero, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-12-13T10:02:53.030Z,16.203,-98.46,19.9,5.1,mb,,,,1.1,us,usp0006q08,2014-11-07T00:56:57.663Z,"15 km S of Santiago Tepextla, Mexico",earthquake,,,,39,reviewed,us,us
+1994-12-13T08:23:48.210Z,16.314,-98.443,15.9,5.5,mw,,,,1.1,us,usp0006q00,2022-04-28T17:17:36.733Z,"2 km S of Santiago Tepextla, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-12-10T16:17:38.510Z,18.136,-101.384,48.1,6.5,mwb,,,,1.1,us,usp0006pwk,2022-04-28T17:17:17.679Z,"22 km SW of Guayameo, Mexico",earthquake,,,,,reviewed,us,us
+1994-08-28T15:02:19.070Z,17.012,-95.844,68,5.6,mw,,,,1,us,usp0006hm2,2022-04-28T17:35:06.619Z,"6 km N of San Pedro Ocotepec, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-05-23T01:41:42.290Z,18.165,-100.527,55.3,6.3,mw,,,,1,us,usp0006cyv,2022-04-28T17:42:30.341Z,"4 km W of San Cristóbal, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-05-06T21:09:36.820Z,18.335,-98.01,56.4,5.3,mw,,,,1.1,us,usp0006c6r,2022-04-28T17:41:28.003Z,"7 km NE of San Vicente Boquerón, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-02-23T14:13:49.450Z,18.05,-97.182,73.3,5.8,mw,,,,0.9,us,usp00068ww,2022-04-28T17:51:13.007Z,"12 km W of San Juan de los Cues, Mexico",earthquake,,,,,reviewed,us,hrv
+1994-02-09T00:01:58.770Z,16.678,-95.633,57.1,5,mb,,,,1,us,usp0006889,2014-11-07T00:54:57.644Z,"10 km W of Santiago Lachiguiri, Mexico",earthquake,,,,40,reviewed,us,us
+1993-11-13T00:16:49.010Z,16.288,-98.638,19.6,6,mwb,,,,1.2,us,usp00063mg,2022-04-28T17:56:09.374Z,"18 km SW of Montecillos, Mexico",earthquake,,,,,reviewed,us,us
+1993-10-24T07:52:15.630Z,16.755,-98.717,20.7,6.7,mwb,,,,1,us,usp00062jn,2022-04-28T17:58:36.549Z,"1 km ENE of Jolotichán, Mexico",earthquake,,,,,reviewed,us,us
+1993-08-05T01:20:48.550Z,17.405,-98.235,61.6,5.2,mw,,,,1.1,us,usp0005xyu,2022-04-28T18:02:24.010Z,"5 km N of San Martín Peras, Mexico",earthquake,,4.5,,,reviewed,us,hrv
+1993-07-29T20:16:58.760Z,17.522,-100.422,35.8,5,mb,,,,1,us,usp0005xmt,2022-04-28T18:08:07.807Z,"28 km NW of El Paraíso, Mexico",earthquake,,,,43,reviewed,us,us
+1993-05-15T03:12:32.720Z,16.698,-98.395,20.8,6.1,mw,,,,1,us,usp0005stk,2022-04-28T18:12:19.669Z,"1 km ENE of Ometepec, Mexico",earthquake,,,,,reviewed,us,hrv
+1993-05-15T03:09:38.190Z,16.673,-98.417,19.7,6,mwb,,,,1,us,usp0005stj,2022-04-28T18:12:13.062Z,"2 km SSW of Ometepec, Mexico",earthquake,,,,,reviewed,us,us
+1993-03-31T10:18:14.250Z,17.322,-100.91,29.5,5.5,mw,,,,1.1,us,usp0005qen,2022-04-28T18:19:44.676Z,"6 km NNW of San Luis de La Loma, Mexico",earthquake,,,,,reviewed,us,hrv
+1993-03-20T17:41:48.210Z,18.696,-103.327,58.8,5.1,mb,,,,1.1,us,usp0005pve,2022-04-28T18:19:05.044Z,"8 km SSE of Villa Victoria, Mexico",earthquake,,,,50,reviewed,us,us
+1993-03-11T20:43:56.210Z,18.288,-101.816,70.9,5.4,mb,,,,1.1,us,usp0005pbq,2022-04-28T18:18:10.984Z,"8 km WSW of Coahuayutla de Guerrero, Mexico",earthquake,,,,73,reviewed,us,us
+1992-09-29T19:15:45.150Z,19.399,-103.288,95,5.3,mw,,,,0.9,us,usp0005eqc,2025-12-19T22:57:16.887Z,"8 km SSE of Tecalitlán, Mexico",earthquake,,,,,reviewed,us,hrv
+1992-06-07T17:41:10.430Z,16.415,-98.652,5,5.2,mw,,,,0.9,us,usp00058t9,2022-04-28T18:43:18.338Z,"13 km SE of Barra de Tecoanapa, Mexico",earthquake,,,,,reviewed,us,hrv
+1992-06-07T09:01:45.080Z,16.505,-98.656,5,5.4,mw,,,,0.9,us,usp00058sy,2022-04-28T18:43:08.097Z,"8 km E of Barra de Tecoanapa, Mexico",earthquake,,,,,reviewed,us,hrv
+1992-04-01T00:31:52.350Z,17.51,-101.033,56.9,5.2,mw,,,,1.1,us,usp000555h,2025-12-19T22:59:46.431Z,"14 km N of Coyuquilla Norte, Mexico",earthquake,,5.9,,,reviewed,us,hrv
+1992-03-31T20:56:37.700Z,17.469,-101.119,48.1,5.4,mw,,,,1.1,us,usp000554y,2022-04-28T18:53:52.819Z,"11 km NW of Coyuquilla Norte, Mexico",earthquake,,5.8,,,reviewed,us,hrv
+1992-02-12T11:56:53.600Z,17.798,-101.613,32,5.2,mw,,,,1.3,us,usp00052z6,2022-04-28T18:54:56.596Z,"7 km NNE of Pantla, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-11-24T03:47:09.130Z,16.434,-97.853,29.6,5.4,mw,,,,1,us,usp0004zjb,2022-04-28T19:00:20.669Z,"4 km NNE of San Lorenzo, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-09-26T05:59:18.660Z,16.13,-98.237,19.4,5.2,mw,,,,0.9,us,usp0004x2b,2022-04-28T19:04:19.620Z,"13 km SSW of Corralero, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-07-25T15:46:00.590Z,16.882,-101.39,33,5.8,mw,,,,1,us,usp0004umr,2022-04-28T19:08:59.917Z,"61 km SW of Papanoa, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-07-25T15:25:29.890Z,17.818,-95.046,127.4,5.7,mw,,,,1,us,usp0004umq,2022-04-28T19:08:58.403Z,"3 km WNW of Aguilera, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-05-22T00:57:02.570Z,18.254,-103.253,44.7,5,mb,,,,1.2,us,usp0004rya,2022-04-28T19:14:51.654Z,"46 km SE of Aquila, Mexico",earthquake,,6.7,,44,reviewed,us,us
+1991-04-07T09:39:36.650Z,16.304,-97.476,24.7,5.1,mw,,,,1,us,usp0004q1p,2022-04-28T19:17:02.086Z,"2 km NE of Tepenixtlahuaca, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-04-01T09:01:31.470Z,16.279,-98.101,43.6,5.4,mw,,,,0.9,us,usp0004ptx,2022-04-28T19:15:52.940Z,"7 km WNW of El Carrizo, Mexico",earthquake,,6.6,,,reviewed,us,hrv
+1991-04-01T07:34:45.910Z,16.175,-98.278,20.5,5.8,mw,,,,1.1,us,usp0004ptt,2022-04-28T19:15:47.646Z,"11 km SW of Corralero, Mexico",earthquake,,,,,reviewed,us,hrv
+1991-01-14T21:11:04.220Z,18.029,-101.7,30.5,5.5,mw,,,,1.2,us,usp0004kq4,2022-04-28T19:26:40.471Z,"12 km ENE of La Unión, Mexico",earthquake,,,,,reviewed,us,hrv
+1990-10-29T02:21:28.550Z,18.941,-102.004,98.6,5.1,mb,,,,1,us,usp0004g9n,2014-11-07T00:47:19.331Z,"6 km NE of El Chauz, Mexico",earthquake,,4.1,,39,reviewed,us,us
+1990-05-31T07:35:27.010Z,17.26,-100.707,22.6,6,mw,,,,1,us,usp00049zs,2022-04-28T19:50:29.562Z,"7 km NE of Nuxco, Mexico",earthquake,,,,,reviewed,us,nc
+1990-05-19T13:37:36.580Z,17.321,-101.203,30.3,5,mb,,,,1.2,us,usp00049gu,2014-11-07T00:46:22.871Z,"16 km WSW of Coyuquilla Norte, Mexico",earthquake,,,,39,reviewed,us,us
+1990-05-11T23:43:50.490Z,17.282,-100.679,28,5.6,mw,,,,1.1,us,usp000496r,2022-04-28T19:48:55.053Z,"7 km NW of El Súchil, Mexico",earthquake,,,,,reviewed,us,hrv
+1990-03-23T14:07:15.470Z,16.132,-96.278,62.8,5.3,mw,,,,0.9,us,usp00046z6,2022-04-28T19:56:17.949Z,"2 km W of San Juan Ozolotepec, Mexico",earthquake,,6.3,,,reviewed,us,hrv
+1990-02-17T01:38:06.000Z,16.089,-97.934,33,5.2,mb,,,,1,us,usp00045hu,2014-11-07T00:45:45.453Z,"10 km SSE of Santa María Chico Ometepec, Mexico",earthquake,,,,33,reviewed,us,us
+1990-02-17T01:24:27.650Z,15.942,-98.105,33,5,mb,,,,1,us,usp00045ht,2014-11-07T00:45:45.448Z,"29 km SSW of Santa María Chico Ometepec, Mexico",earthquake,,,,14,reviewed,us,us
+1990-01-29T02:41:23.970Z,18.271,-102.547,39.1,5.4,mb,,,,1.1,us,usp00044us,2022-04-28T20:03:08.188Z,"28 km WSW of Arteaga, Mexico",earthquake,,,,36,reviewed,us,us
+1990-01-13T02:07:26.840Z,16.826,-99.509,28.4,5.3,mw,,,,1.1,us,usp0004464,2022-04-28T20:01:41.376Z,"5 km N of El Cortés, Mexico",earthquake,,,,,reviewed,us,hrv
+1989-11-09T08:36:44.230Z,17.043,-99.463,56.5,5.1,mb,,,,1,us,usp00041w7,2022-04-28T20:06:49.836Z,"3 km N of Las Mesas, Mexico",earthquake,,7.4,,27,reviewed,us,us
+1989-10-08T22:32:39.230Z,17.141,-100.19,35,5.1,mw,,,,1.3,us,usp00040fk,2022-04-28T20:08:52.818Z,"11 km SW of Tepetixtla, Mexico",earthquake,,,,,reviewed,us,hrv
+1989-09-24T18:45:45.760Z,16.118,-96.738,44.3,5,mb,,,,1,us,usp0003zz3,2014-11-07T00:44:54.031Z,"5 km NNE of Santa Catarina Loxicha, Mexico",earthquake,,6.5,,32,reviewed,us,us
+1989-08-12T15:31:49.240Z,18.288,-100.974,68.5,5.4,mw,,,,1.2,us,usp0003ydb,2022-04-28T20:12:23.778Z,"9 km NW of Placeres del Oro, Mexico",earthquake,,4.7,,,reviewed,us,hrv
+1989-05-02T09:30:15.520Z,16.747,-99.343,10,5.5,mw,,,,1,us,usp0003ush,2022-04-28T20:16:43.116Z,"7 km SE of San Marcos, Mexico",earthquake,,,,,reviewed,us,hrv
+1989-04-25T14:29:00.510Z,16.773,-99.328,19.2,6.9,mw,,,,1.2,us,usp0003udb,2022-04-28T20:21:34.803Z,"7 km ESE of San Marcos, Mexico",earthquake,,,,,reviewed,us,par
+1989-03-10T05:19:52.340Z,17.586,-101.013,43.5,5.4,mw,,,,1.2,us,usp0003st7,2022-04-28T20:23:21.921Z,"23 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,hrv
+1989-01-04T15:04:25.360Z,16.635,-97.827,59,5,mb,,,,1,us,usp0003qgz,2014-11-07T00:43:23.757Z,"2 km ENE of La Reforma, Mexico",earthquake,,7.6,,18,reviewed,us,us
+1988-09-26T20:12:04.380Z,17.405,-100.945,49.8,5,mb,,,,1.2,us,usp0003m9w,2014-11-07T00:42:51.570Z,"12 km ENE of Coyuquilla Norte, Mexico",earthquake,,8.9,,11,reviewed,us,us
+1988-09-14T20:36:38.840Z,18.526,-102.279,80,5.1,mw,,,,1.2,us,usp0003kz7,2025-12-19T21:09:21.413Z,"10 km E of Tumbiscatío de Ruiz, Mexico",earthquake,,,,,reviewed,us,hrv
+1988-09-01T16:52:45.510Z,16.578,-99.273,10,5,mb,,,,1.2,us,usp0003kkc,2014-11-07T00:42:44.716Z,"20 km SSW of Las Vigas, Mexico",earthquake,,,,15,reviewed,us,us
+1988-06-08T21:18:04.890Z,16.557,-98.716,42.9,5.1,mb,,,,0.9,us,usp0003gtw,2014-11-07T00:42:18.479Z,"5 km NNE of Barra de Tecoanapa, Mexico",earthquake,,5.9,,35,reviewed,us,us
+1988-05-09T05:41:21.080Z,16.8,-97.851,42.9,5,mb,,,,0.9,us,usp0003ft7,2014-11-07T00:42:07.106Z,"6 km NNE of San Juan Cabeza del Río, Mexico",earthquake,,5.7,,26,reviewed,us,us
+1988-03-31T07:34:28.890Z,18.209,-97.797,61.4,5,mw,,,,1.1,us,usp0003egu,2022-04-28T20:52:53.090Z,"6 km ESE of Totoltepec de Guerrero, Mexico",earthquake,,8.1,,,reviewed,us,hrv
+1988-02-08T13:51:33.950Z,17.737,-100.965,58,5.9,mw,,,,1.2,us,usp0003cvc,2022-04-28T20:53:43.729Z,"38 km NE of Petatlán, Mexico",earthquake,,7,,,reviewed,us,hrv
+1988-01-19T16:00:28.610Z,18.861,-103.037,78.1,5.3,mb,,,,1.1,us,usp0003c6g,2022-04-28T20:56:26.065Z,"15 km NE of Coalcomán de Vázquez Pallares, Mexico",earthquake,,5.6,,43,reviewed,us,us
+1987-12-26T20:17:52.750Z,16.066,-98.386,21.3,5.2,mb,,,,0.9,us,usp0003bk4,2014-11-07T00:41:25.147Z,"28 km SW of Corralero, Mexico",earthquake,,,,25,reviewed,us,us
+1987-09-01T13:51:20.700Z,16.244,-95.873,37.3,5.2,mw,,,,0.7,us,usp0003801,2022-04-27T21:34:15.229Z,"4 km S of Santa María Ecatepec, Mexico",earthquake,,,,,reviewed,us,hrv
+1987-07-26T00:22:40.060Z,18.913,-101.35,73.1,5.1,mw,,,,1.1,us,usp00036yg,2025-12-19T21:14:37.635Z,"17 km SSE of Turicato, Mexico",earthquake,,,,,reviewed,us,hrv
+1987-07-15T07:16:13.550Z,17.522,-97.153,67,6.2,mw,,,,1.1,us,usp00036nt,2022-04-27T21:39:42.909Z,"2 km NNW of San Pedro Coxcaltepec Cántaros, Mexico",earthquake,,,,,reviewed,us,hrv
+1987-06-07T13:30:15.920Z,16.827,-98.69,40.6,5.3,mw,,,,1,us,usp00035m2,2022-04-27T21:41:57.514Z,"1 km NNW of Yoloxóchitl, Mexico",earthquake,,6.7,,,reviewed,us,hrv
+1987-02-02T19:22:04.810Z,16.537,-98.476,33,5.3,mb,,,,1.2,us,usp000324m,2022-04-27T21:50:57.966Z,"5 km E of El Pitahayo, Mexico",earthquake,,,,15,reviewed,us,us
+1986-06-19T04:39:46.090Z,18.354,-101.444,69.9,5.2,mb,,,,1.1,us,usp0002v6j,2022-04-27T22:14:26.312Z,"16 km SSW of Aratichanguío, Mexico",earthquake,,6.4,,29,reviewed,us,us
+1986-06-11T21:39:47.350Z,18.265,-100.644,52.4,5.1,mb,,,,1.4,us,usp0002uz9,2022-04-27T22:13:03.291Z,"3 km S of Amuco de la Reforma, Mexico",earthquake,,,,42,reviewed,us,us
+1986-05-29T20:31:19.780Z,16.955,-98.733,36.4,5.2,mw,,,,1.1,us,usp0002uju,2022-04-27T22:18:24.864Z,"0 km SW of El Potrerillo (Potrerillo del Rincón), Mexico",earthquake,,,,,reviewed,us,hrv
+1986-05-05T05:46:37.480Z,18.156,-102.657,37.8,5.9,mw,,,,1.1,us,usp0002thv,2022-04-27T22:16:11.684Z,"34 km WNW of El Habillal, Mexico",earthquake,,5.3,,,reviewed,us,hrv
+1986-04-30T07:07:18.120Z,18.404,-102.973,26.5,7,mw,,,,1.2,us,usp0002tcb,2022-04-27T22:20:16.213Z,"41 km SSW of Aguililla, Mexico",earthquake,,,,,reviewed,us,nc
+1986-01-12T16:51:22.680Z,17.976,-101.966,33,5.1,mb,,,,1.4,us,usp0002q02,2014-11-07T00:37:47.066Z,"15 km E of Petacalco, Mexico",earthquake,,,,15,reviewed,us,us
+1985-10-29T15:02:27.840Z,18.158,-102.548,38.8,5.9,mw,,,,1.3,us,usp0002m91,2022-04-27T22:35:25.836Z,"24 km NW of El Habillal, Mexico",earthquake,,6.9,,,reviewed,us,hrv
+1985-09-28T03:52:46.670Z,17.274,-101.182,33,5.4,mw,,,,1.1,us,usp0002k7c,2022-04-27T22:38:29.777Z,"15 km WSW of Papanoa, Mexico",earthquake,,,,,reviewed,us,hrv
+1985-09-25T07:43:57.060Z,18.208,-102.74,29.9,5.7,mw,,,,1.1,us,usp0002k3m,2022-04-27T22:38:21.567Z,"44 km WNW of El Habillal, Mexico",earthquake,,13.3,,,reviewed,us,hrv
+1985-09-21T01:37:13.470Z,17.802,-101.647,30.8,7.6,mw,,,,1.2,us,usp0002jyp,2022-04-27T22:38:14.578Z,"7 km N of Pantla, Mexico",earthquake,,4.9,,,reviewed,us,hrv
+1985-09-19T18:29:30.620Z,17.789,-101.489,33,5,mb,,,,1,us,usp0002jwt,2014-11-07T00:37:11.107Z,"16 km ENE of Pantla, Mexico",earthquake,,,,13,reviewed,us,us
+1985-09-19T13:17:47.350Z,18.19,-102.533,27.9,8,mw,,,,1.3,us,usp0002jwe,2025-07-24T15:01:26.363Z,"1985 Michoacan, Mexico Earthquake",earthquake,,3.8,,,reviewed,us,hrv
+1985-09-15T07:57:53.590Z,17.974,-97.158,64.8,6,mw,,,,1,us,usp0002jsu,2022-04-27T22:38:03.599Z,"13 km SW of San Juan de los Cues, Mexico",earthquake,,3.8,,,reviewed,us,nc
+1985-07-04T08:51:35.690Z,17.533,-96.991,70.4,5.1,mw,,,,1,us,usp0002gdu,2025-12-19T21:20:48.703Z,"12 km NE of Santiago Huauclilla, Mexico",earthquake,,3.8,,,reviewed,us,hrv
+1985-05-28T19:27:52.220Z,18.907,-101.862,105.7,5.2,mb,,,,1,us,usp0002f9m,2014-11-07T00:36:37.268Z,"8 km SW of La Huacana, Mexico",earthquake,,6.3,,53,reviewed,us,us
+1985-02-10T21:37:46.660Z,18.733,-102.899,89.4,5,mb,,,,0.9,us,usp0002bt0,2014-11-07T00:36:10.114Z,"11 km W of Aguililla, Mexico",earthquake,,5.3,,18,reviewed,us,us
+1985-01-15T12:00:11.370Z,16.481,-98.051,30.1,5.1,mb,,,,1,us,usp0002b24,2022-04-27T22:57:18.265Z,"4 km W of San Juan Jicayán, Mexico",earthquake,,,,31,reviewed,us,us
+1984-12-13T08:10:12.470Z,16.18,-96.492,44.3,5.5,mw,,,,1,us,usp00029zq,2022-04-27T22:59:24.144Z,"2 km W of San Sebastián Río Hondo, Mexico",earthquake,,3.3,,,reviewed,us,hrv
+1984-11-30T14:15:03.030Z,16.251,-98.208,33,5.4,mw,,,,1,us,usp00029nc,2022-04-27T23:10:09.147Z,"2 km NW of Corralero, Mexico",earthquake,,,,,reviewed,us,hrv
+1984-10-19T23:00:00.200Z,16.699,-98.298,35.2,5.1,mb,,,,1,us,usp00028ak,2022-04-27T23:11:02.721Z,"3 km WNW of La Guadalupe, Mexico",earthquake,,,,34,reviewed,us,us
+1984-08-29T00:18:28.930Z,16.727,-98.24,32.5,5.1,mb,,,,1.2,us,usp00026tx,2022-04-27T23:16:05.603Z,"2 km WSW of Los Liros, Mexico",earthquake,,,,22,reviewed,us,us
+1984-07-14T21:03:50.360Z,17.463,-99.601,64.7,5.5,mw,,,,1,us,usp00025re,2022-04-27T23:17:52.693Z,"3 km NNW of El Fresno, Mexico",earthquake,,,,,reviewed,us,hrv
+1984-07-02T04:50:44.130Z,16.804,-98.441,46.6,6.4,mw,,,,1,us,usp00025ev,2022-04-27T23:16:48.524Z,"1 km E of Chacalapa, Mexico",earthquake,,2.7,,,reviewed,us,nc
+1984-06-04T04:34:03.410Z,18.298,-98.249,60.3,5.4,mw,,,,1.2,us,usp00024ua,2022-04-27T23:18:49.721Z,"4 km SE of Tehuitzingo, Mexico",earthquake,,4.3,,,reviewed,us,hrv
+1983-12-08T10:21:56.570Z,18.548,-102.581,68.3,5.5,mb,,,,1.3,us,usp00020bs,2022-04-27T23:40:26.328Z,"21 km W of Tumbiscatío de Ruiz, Mexico",earthquake,,3.9,,55,reviewed,us,us
+1983-09-13T02:19:33.070Z,18.067,-100.585,75,5.3,mb,,,,1.1,us,usp0001yak,2014-11-07T00:33:48.022Z,"14 km SW of Ajuchitlán del Progreso, Mexico",earthquake,,3.6,,23,reviewed,us,us
+1983-02-21T11:52:13.120Z,16.912,-98.338,46.7,5.4,mb,,,,0.8,us,usp0001t7g,2022-04-28T00:13:45.462Z,"11 km SW of San Pedro Cuitlapan, Mexico",earthquake,,3.7,,34,reviewed,us,us
+1983-02-07T11:54:48.640Z,16.872,-98.365,50.7,5.5,mb,,,,0.8,us,usp0001sw3,2022-04-28T00:11:54.242Z,"6 km NE of San Cristóbal, Mexico",earthquake,,3.4,,44,reviewed,us,us
+1982-12-14T14:11:53.040Z,16.621,-98.497,34,5.2,mb,,,,1.2,us,usp0001rf6,2022-04-28T00:17:54.189Z,"6 km ESE of Huehuetán, Mexico",earthquake,,,,31,reviewed,us,us
+1982-11-28T20:47:46.070Z,16.608,-98.528,26,5.1,mb,,,,0.9,us,usp0001r63,2022-04-28T00:22:22.162Z,"4 km SE of Huehuetán, Mexico",earthquake,,,,29,reviewed,us,us
+1982-10-29T00:47:20.070Z,17.297,-95.09,157.5,5,mb,,,,1.3,us,usp0001qk9,2014-11-07T00:32:05.303Z,"8 km NNW of Donaji, Mexico",earthquake,,8.1,,1,reviewed,us,us
+1982-10-06T19:50:51.710Z,17.381,-101.214,41.4,5,mb,,,,1,us,usp0001q2f,2014-11-07T00:31:59.847Z,"16 km W of Coyuquilla Norte, Mexico",earthquake,,4.4,,21,reviewed,us,us
+1982-06-15T17:24:17.240Z,16.462,-98.377,37.9,5,mb,,,,1.1,us,usp0001my4,2022-04-28T00:34:53.549Z,"4 km ESE of Cuajinicuilapa, Mexico",earthquake,,3.2,,20,reviewed,us,us
+1982-06-07T10:59:40.160Z,16.558,-98.358,33.8,7,ms,,,,1.1,us,usp0001mrg,2025-12-19T21:40:42.252Z,"5 km NNW of San Juan Bautista Lo de Soto, Mexico",earthquake,,2.8,,20,reviewed,us,us
+1982-06-07T06:52:37.370Z,16.607,-98.149,40.5,6.9,ms,,,,1.1,us,usp0001mrd,2025-12-19T21:40:40.801Z,"1 km SE of San Juan Cacahuatepec, Mexico",earthquake,,3.1,,16,reviewed,us,us
+1982-01-02T07:05:53.410Z,16.778,-100.121,19.1,5.4,mb,,,,1.1,us,usp0001hur,2022-04-28T00:43:58.853Z,"18 km SSW of Los Mogotes, Mexico",earthquake,,2.7,,24,reviewed,us,us
+1982-01-02T03:30:56.240Z,16.814,-100.246,26.3,5.2,mb,,,,1.1,us,usp0001hun,2022-04-28T00:43:57.745Z,"22 km SW of El Espinalillo, Mexico",earthquake,,2.8,,42,reviewed,us,us
+1981-11-01T23:18:35.440Z,18.075,-101.821,60.4,5.1,mb,,,,0.9,us,usp0001gs2,2022-04-28T00:48:28.043Z,"10 km N of La Unión, Mexico",earthquake,,3.5,,45,reviewed,us,us
+1981-10-25T03:35:37.090Z,17.741,-102.709,33,5.2,mb,,,,0.9,us,usp0001gnw,2022-04-28T00:51:58.280Z,"46 km SW of El Habillal, Mexico",earthquake,,,,27,reviewed,us,us
+1981-10-25T03:22:15.570Z,18.048,-102.084,33,7.3,ms,,,,1.2,us,usp0001gnv,2025-12-19T21:42:53.444Z,"7 km NNE of Petacalco, Mexico",earthquake,,,,16,reviewed,us,us
+1981-09-17T09:50:32.450Z,16.8,-99.429,22,5.4,mb,,,,0.8,us,usp0001fxt,2025-12-19T21:48:38.871Z,"4 km W of San Marcos, Mexico",earthquake,,,,43,reviewed,us,us
+1981-07-26T05:14:22.690Z,18.216,-101.89,29,5.4,mb,,,,1,us,usp0001ey2,2025-12-19T21:50:27.694Z,"7 km S of Infiernillo (Morelos de Infiernillo), Mexico",earthquake,,,,32,reviewed,us,us
+1981-07-21T10:22:54.700Z,16.508,-98.408,52.6,5.2,ms,,,,1,us,usp0001eum,2025-12-19T21:50:20.644Z,"Guerrero-Oaxaca border region, Mexico",earthquake,,4.3,,2,reviewed,us,us
+1981-07-21T09:14:18.690Z,16.282,-98.373,24.9,5.1,mb,,,,0.9,us,usp0001euh,2022-04-28T01:00:44.526Z,"5 km S of Santo Domingo Armenta, Mexico",earthquake,,3.1,,25,reviewed,us,us
+1981-06-20T03:50:03.460Z,16.184,-98.472,22,5,mb,,,,0.9,us,usp0001e8a,2014-11-07T00:29:38.476Z,"17 km S of Santiago Tepextla, Mexico",earthquake,,,,22,reviewed,us,us
+1981-02-14T01:08:41.940Z,16.059,-96.3,39,5,mb,,,,0.7,us,usp0001c5t,2022-04-28T01:11:31.677Z,"1 km SSE of Santa Cruz Ozolotepec, Mexico",earthquake,,,,22,reviewed,us,us
+1980-12-29T22:10:21.700Z,17.16,-97.892,74,5.2,mb,,,,,us,usp0001bh7,2022-04-28T01:19:15.937Z,"5 km W of San Andrés Chicahuaxtla, Mexico",earthquake,,,,,reviewed,us,us
+1980-10-24T14:53:35.100Z,18.211,-98.24,72,6.4,mb,,,,,us,usp0001ae2,2025-12-19T21:55:36.358Z,"1 km NE of Piaxtla, Mexico",earthquake,,,,,reviewed,us,us
+1980-07-31T04:57:34.900Z,16.412,-97.109,47,5.4,ms,,,,,us,usp000196b,2022-04-28T01:33:48.467Z,"7 km NNW of San Pedro Juchaltengo, Mexico",earthquake,,,,,reviewed,us,us
+1980-05-19T02:34:41.700Z,17.531,-101.153,58,5,mb,,,,,us,usp00017ae,2014-11-06T23:24:21.915Z,"12 km E of Petatlán, Mexico",earthquake,,,,,reviewed,us,us
+1980-01-04T12:46:53.600Z,17.655,-100.986,66,5.1,mb,,,,,us,usp00014vg,2022-04-28T01:46:32.076Z,"31 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-12-13T18:11:09.000Z,15.3,-97.645,33,5,ms,,,,,us,usp00014g8,2014-11-06T23:22:08.169Z,"81 km SSW of Río Grande, Mexico",earthquake,,,,,reviewed,us,us
+1979-12-10T23:05:58.200Z,15.899,-96.476,33,5.2,mb,,,,,us,usp00014ej,2014-11-06T23:22:08.093Z,"3 km SSE of Candelaria Loxicha, Mexico",earthquake,,,,,reviewed,us,us
+1979-04-02T03:46:05.700Z,16.084,-96.603,33,5,mb,,,,,us,usp0000zte,2022-04-27T15:07:55.940Z,"7 km N of San Agustín Loxicha, Mexico",earthquake,,,,,reviewed,us,us
+1979-03-22T12:23:16.200Z,17.961,-101.54,76,5.1,mb,,,,,us,usp0000zkb,2014-11-06T23:21:58.867Z,"23 km W of Vallecitos de Zaragoza, Mexico",earthquake,,,,,reviewed,us,us
+1979-03-18T20:12:31.700Z,17.546,-100.991,33,5.4,ms,,,,,us,usp0000zfy,2025-12-19T22:07:48.677Z,"19 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-03-14T15:35:43.100Z,17.68,-101.396,66,5,mb,,,,,us,usp0000zc5,2022-04-27T15:11:58.488Z,"6 km NE of San Miguelito, Mexico",earthquake,,,,,reviewed,us,us
+1979-03-14T12:01:24.800Z,17.952,-101.283,52,5.5,mb,,,,,us,usp0000zbx,2022-04-27T15:11:52.922Z,"5 km NE of Vallecitos de Zaragoza, Mexico",earthquake,,,,,reviewed,us,us
+1979-03-14T11:07:16.300Z,17.813,-101.276,49,7.6,ms,,,,,us,usp0000zbw,2025-12-19T22:07:41.834Z,"12 km SSE of Vallecitos de Zaragoza, Mexico",earthquake,,,,,reviewed,us,us
+1979-02-28T20:10:20.200Z,17.59,-101.005,54,5.2,ms,,,,,us,usp0000z28,2022-04-27T15:15:32.947Z,"23 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-02-28T17:10:17.900Z,19.918,-100.226,33,5,mb,,,,,us,usp0000z26,2022-04-27T15:15:31.733Z,"0 km NE of Buenavista, Mexico",earthquake,,,,,reviewed,us,us
+1979-02-22T09:16:37.000Z,19.98,-100.268,51,5.3,mb,,,,,us,usp0000yyn,2022-04-27T15:15:15.808Z,"4 km WSW of Tepuxtepec, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-29T18:29:32.300Z,17.593,-100.979,33,5,mb,,,,,us,usp0000ync,2022-04-27T15:18:04.085Z,"24 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-29T18:21:49.100Z,17.596,-100.977,33,5.2,mb,,,,,us,usp0000ynb,2022-04-27T15:18:02.655Z,"25 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-28T02:22:53.200Z,16.877,-98.133,53,5.1,mb,,,,,us,usp0000ymf,2022-04-27T15:17:55.028Z,"5 km SE of La Soledad, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-26T20:17:38.600Z,17.489,-101.064,43,5.4,mb,,,,,us,usp0000yky,2022-04-27T15:17:41.221Z,"12 km N of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-26T17:10:44.100Z,17.554,-100.988,39,5.6,ms,,,,,us,usp0000ykv,2022-04-27T15:17:40.136Z,"20 km NNE of Coyuquilla Norte, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-26T10:04:32.000Z,17.413,-100.877,41,6.6,ms,,,,,us,usp0000yks,2025-12-19T22:08:58.250Z,"15 km N of San Luis de La Loma, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-10T04:29:24.700Z,15.927,-96.536,33,5.1,mb,,,,,us,usp0000yc2,2022-04-27T15:16:05.101Z,"4 km W of Candelaria Loxicha, Mexico",earthquake,,,,,reviewed,us,us
+1979-01-06T11:51:30.700Z,18.27,-102.785,32,5.2,mb,,,,,us,usp0000yam,2022-04-27T15:15:47.409Z,"51 km WSW of Tumbiscatío de Ruiz, Mexico",earthquake,,,,,reviewed,us,us
+1978-12-28T19:48:04.500Z,16.047,-96.476,33,5.4,mb,,,,,us,usp0000y5q,2022-04-27T15:20:39.399Z,"5 km S of San Miguel Suchixtepec, Mexico",earthquake,,,,,reviewed,us,us
+1978-12-11T02:08:01.800Z,16.538,-100.034,42,5.3,mb,,,,,us,usp0000xvt,2022-04-27T15:18:58.596Z,"36 km SSW of Acapulco de Juárez, Mexico",earthquake,,,,,reviewed,us,us
+1978-11-30T10:22:43.500Z,16.007,-97.01,40,5.1,mb,,,,,us,usp0000xpu,2022-04-27T15:23:31.032Z,"12 km SE of San Gabriel Mixtepec, Mexico",earthquake,,,,,reviewed,us,us
+1978-11-29T23:06:26.100Z,15.857,-96.355,33,5,mb,,,,,us,usp0000xpe,2022-04-27T15:23:24.409Z,"3 km NW of La Erradura, Mexico",earthquake,,,,,reviewed,us,us
+1978-11-29T20:49:48.800Z,16.184,-96.63,22,5.7,mb,,,,,us,usp0000xpa,2022-04-27T15:23:12.332Z,"1 km WSW of Santa Lucía, Mexico",earthquake,,,,,reviewed,us,us
+1978-11-29T20:04:46.800Z,16.16,-96.746,33,5.3,mb,,,,,us,usp0000xp8,2022-04-27T15:23:07.196Z,"2 km SSE of San Francisco Coatlán, Mexico",earthquake,,,,,reviewed,us,us
+1978-11-29T19:52:47.600Z,16.01,-96.591,18,7.7,ms,,,,,us,usp0000xp7,2025-12-19T22:10:02.242Z,"2 km ESE of San Agustín Loxicha, Mexico",earthquake,,,,,reviewed,us,us
+1978-09-29T16:21:41.000Z,18.615,-102.262,96,5.5,mb,,,,,us,usp0000wsx,2022-04-27T15:28:03.217Z,"7 km SSE of La Mira Tumbiscatio, Mexico",earthquake,,,,,reviewed,us,us
+1978-07-05T20:15:16.300Z,18.487,-100.007,62,5.6,mb,,,,,us,usp0000vew,2022-04-27T15:32:11.433Z,"10 km NE of Acapetlahuaya, Mexico",earthquake,,,,,reviewed,us,us
+1978-04-25T12:56:08.300Z,19.371,-103.855,64,5.1,mb,,,,,us,usp0000u8z,2022-04-27T15:46:59.128Z,"3 km WNW of Zacualpan, Mexico",earthquake,,,,,reviewed,us,us
+1978-03-19T01:39:14.000Z,17.026,-99.735,36,6.4,ms,,,,,us,usp0000tfe,2025-12-19T20:02:57.543Z,"4 km NW of Sabanillas, Mexico",earthquake,,,,,reviewed,us,us
+1977-04-18T18:56:55.200Z,18.608,-101.397,91,5,mb,,,,,us,usp0000nfc,2014-11-06T23:21:41.168Z,"14 km NNW of Aratichanguío, Mexico",earthquake,,,,,reviewed,us,us
+1976-10-04T06:59:18.900Z,20.354,-99.015,16,5.1,mb,,,,,us,usp0000jrh,2022-04-27T16:49:00.048Z,"0 km WNW of Cerritos, Mexico",earthquake,,,,,reviewed,us,us
+1976-09-19T20:58:05.100Z,18.221,-100.469,55,5.6,mb,,,,,us,usp0000jgz,2025-12-19T20:17:31.746Z,"3 km ENE of San Jerónimo el Grande, Mexico",earthquake,,,,,reviewed,us,us
+1976-09-05T20:11:37.900Z,18.742,-101.118,86,5.3,mb,,,,,us,usp0000j85,2022-04-27T16:52:10.105Z,"24 km SW of Paso de Núñez (Buenavista), Mexico",earthquake,,,,,reviewed,us,us
+1976-06-07T14:26:39.100Z,17.403,-100.635,45,6.4,ms,,,,,us,usp0000gs7,2025-12-19T20:19:35.820Z,"19 km N of El Súchil, Mexico",earthquake,,,,,reviewed,us,us
+1976-05-31T14:50:05.200Z,19.37,-100.927,159,5.1,mb,,,,,us,usp0000gp0,2014-11-06T23:21:35.509Z,"5 km SSW of Tafetán, Mexico",earthquake,,,,,reviewed,us,us
+1976-03-25T23:05:07.100Z,20.622,-99.087,33,5,mb,,,,,us,usp0000fmp,2022-04-27T17:14:35.138Z,"6 km ENE of El Bingú, Mexico",earthquake,,,,,reviewed,us,us
+1976-02-01T11:14:57.300Z,17.172,-100.189,52,5.7,mb,,,,,us,usp0000ev3,2025-12-19T20:22:10.666Z,"8 km WSW of Tepetixtla, Mexico",earthquake,,,,,reviewed,us,us
+1975-11-15T15:28:30.400Z,18.225,-102.185,33,5.9,ms,,,,,us,usp0000dku,2025-12-19T20:25:16.523Z,"Michoacan, Mexico",earthquake,,,,,reviewed,us,us
+1975-10-29T04:54:00.700Z,17.229,-99.507,35,5.2,mb,,,,,us,usp0000db1,2022-04-27T17:31:21.027Z,"1 km SE of Mohoneras, Mexico",earthquake,,,,,reviewed,us,us
+1975-08-19T20:19:16.900Z,16.877,-97.842,85,5,mb,,,,,us,usp0000che,2025-12-19T20:27:53.722Z,"10 km SW of San Sebastián Nopalera, Mexico",earthquake,,,,,reviewed,us,us
+1975-06-30T22:58:24.000Z,18.254,-102.77,27,5.1,mb,,,,,us,usp0000bup,2025-12-19T20:30:15.415Z,"50 km WNW of El Habillal, Mexico",earthquake,,,,,reviewed,us,us
+1975-04-23T11:46:06.000Z,16.157,-98.766,34,5.1,mb,,,,,us,usp0000as5,2014-11-06T23:21:29.941Z,"38 km SW of Montecillos, Mexico",earthquake,,,,,reviewed,us,us
+1975-04-23T11:14:48.000Z,16.447,-98.91,11,6.2,ms,,,,,us,usp0000as4,2025-12-19T20:31:49.995Z,"18 km SSW of Marquelia, Mexico",earthquake,,,,,reviewed,us,us
+1975-02-22T00:47:21.700Z,17.356,-100.482,40,5.8,ms,,,,,us,usp00009zk,2025-12-19T20:33:33.867Z,"15 km NNW of El Ticui, Mexico",earthquake,,,,,reviewed,us,us
+1974-10-06T17:09:35.400Z,16.831,-99.777,51,5,mb,,,,,us,usp000089x,2022-04-27T18:03:44.717Z,"0 km NE of Tres Palos, Mexico",earthquake,,,,,reviewed,us,us
+1974-08-12T21:27:18.600Z,17.593,-100.446,73,5.1,mb,,,,,us,usp00007kc,2022-04-27T18:11:45.900Z,"35 km W of Pueblo Viejo, Mexico",earthquake,,,,,reviewed,us,us
+1974-07-18T19:21:24.600Z,17.064,-98.351,48,5.6,mb,,,,,us,usp0000777,2022-04-27T18:17:02.225Z,"Guerrero-Oaxaca border region, Mexico",earthquake,,,,,reviewed,us,us
+1974-06-13T11:57:17.300Z,16.797,-97.934,96,5,mb,,,,,us,usp00006re,2022-04-27T18:19:37.024Z,"7 km ENE of Santa María Zacatepec, Mexico",earthquake,,,,,reviewed,us,us
+1974-06-12T13:46:41.400Z,16.829,-99.182,49,5.1,ms,,,,,us,usp00006qw,2026-01-07T19:02:09.386Z,"9 km NE of Las Vigas, Mexico",earthquake,,,,,reviewed,us,us
+1974-05-27T05:01:11.300Z,17.295,-98.901,50,5.3,mb,,,,,us,usp00006hg,2022-04-27T18:24:33.199Z,"3 km SSE of Acatepec, Mexico",earthquake,,,,,reviewed,us,us
+1974-01-26T05:35:33.600Z,18.596,-103.401,33,6.1,ms,,,,,us,usp000051m,2025-12-19T19:32:46.438Z,"10 km E of Aquila, Mexico",earthquake,,,,,reviewed,us,us
+1973-11-08T13:18:12.000Z,18.134,-99.687,71,5.3,mb,,,,,us,usp0000435,2014-11-06T23:21:21.190Z,"6 km SSW of Apipilulco, Mexico",earthquake,,,,,reviewed,us,us
+1973-11-05T02:16:08.500Z,18.679,-100.585,88,5.1,mb,,,,,us,usp000041v,2014-11-06T23:21:21.150Z,"2 km ENE of Zacapuato, Mexico",earthquake,,,,,reviewed,us,us
+1973-08-28T09:50:40.000Z,18.267,-96.598,84,6.8,mb,,,,,us,usp000038k,2025-12-19T19:36:27.762Z,"8 km N of San Felipe Tílpam, Mexico",earthquake,,,,,reviewed,us,us
+1973-07-29T16:16:28.900Z,19.577,-103.519,130,5.1,mb,,,,,us,usp00002x4,2014-11-06T23:21:17.371Z,"8 km SSW of Ciudad Guzmán [CERESO], Mexico",earthquake,,,,,reviewed,us,us
+1973-07-16T18:12:57.500Z,17.323,-100.679,44,5.7,ms,,,,,us,usp00002r5,2025-12-19T19:36:59.453Z,"11 km NNW of El Súchil, Mexico",earthquake,,,,,reviewed,us,us
+1973-07-03T03:59:53.700Z,19.104,-101.833,125,5.6,mb,,,,,us,usp00002gy,2022-04-27T18:44:58.910Z,"7 km SSE of Nuevo Urecho, Mexico",earthquake,,,,,reviewed,us,us
+1973-02-10T11:53:27.500Z,18.886,-103.545,33,5.6,ms,,,,,us,usp00000g0,2025-12-19T19:37:25.218Z,"19 km NE of Coahuayana Viejo, Mexico",earthquake,,,,,reviewed,us,us
+1973-01-30T21:01:12.500Z,18.481,-102.996,43,7.5,ms,,,,,us,usp00000bf,2025-12-19T19:41:45.884Z,"35 km SW of Aguililla, Mexico",earthquake,,,,,reviewed,us,us
+1972-11-13T06:21:26.170Z,16.521,-98.06,17.6,5.15,mw,,,,,iscgem,iscgem767302,2022-04-26T20:35:23.578Z,"2 km SSE of San Antonio Tepetlapa, Mexico",earthquake,,8.3,0.2,,reviewed,iscgem,iscgem
+1972-07-08T12:10:52.060Z,16.219,-97.051,24.8,5.58,mw,,,,,iscgem,iscgem771416,2025-12-19T19:46:09.976Z,"10 km NE of San Juan Lachao, Mexico",earthquake,,4.7,0.2,,reviewed,iscgem,iscgem
+1972-07-02T00:34:40.860Z,16.271,-98.733,17,5.2,mw,,,,,iscgem,iscgem771196,2025-12-19T19:45:56.747Z,"26 km S of Barra de Tecoanapa, Mexico",earthquake,,9.3,0.31,,reviewed,iscgem,iscgem
+1972-03-04T05:55:19.260Z,16.367,-98.013,20,5.4,mw,,,,,iscgem,iscgem775076,2022-04-26T20:54:08.641Z,"3 km ESE of Santa María Jicaltepec, Mexico",earthquake,,8.3,0.2,,reviewed,iscgem,iscgem
+1972-02-13T20:07:48.010Z,16.385,-96.436,25.7,5.13,mw,,,,,iscgem,iscgem776185,2024-01-17T20:42:54.862Z,"6 km E of San Luis Amatl?n, Mexico",earthquake,,33.5,0.2,,reviewed,iscgem,iscgem
+1972-01-02T21:57:00.630Z,16.014,-98.348,10,5.77,mw,,,,,iscgem,iscgem776638,2025-12-19T19:37:53.507Z,"30 km SW of Corralero, Mexico",earthquake,,7.7,0.2,,reviewed,iscgem,iscgem
+1971-10-10T13:21:39.740Z,16.802,-99.57,42,5.19,mw,,,,,iscgem,iscgem779200,2022-04-26T21:02:12.276Z,"3 km S of Campanario, Mexico",earthquake,,14.3,0.38,,reviewed,iscgem,iscgem
+1971-09-21T07:54:16.030Z,16.558,-98.736,35,5.22,mw,,,,,iscgem,iscgem780487,2022-04-26T21:05:56.824Z,"5 km N of Barra de Tecoanapa, Mexico",earthquake,,9.3,0.2,,reviewed,iscgem,iscgem
+1971-09-05T09:13:12.220Z,16.846,-100.042,18,5.31,mw,,,,,iscgem,iscgem779962,2022-04-26T21:04:03.086Z,"8 km SSW of Colonia Luces en el Mar, Mexico",earthquake,,8.2,0.23,,reviewed,iscgem,iscgem
+1971-07-16T21:40:28.740Z,16.484,-96.276,55.9,5.37,mw,,,,,iscgem,iscgem782362,2022-04-26T21:11:08.034Z,"8 km NNW of San Pedro Mártir Quiechapa, Mexico",earthquake,,33.5,0.27,,reviewed,iscgem,iscgem
+1971-03-28T16:21:49.380Z,16.399,-98.59,37.8,5.13,mw,,,,,iscgem,iscgem786714,2022-04-26T21:21:35.085Z,"7 km WSW of San Nicolás, Mexico",earthquake,,9.3,0.2,,reviewed,iscgem,iscgem
+1971-03-19T06:12:32.780Z,16.954,-95.288,81.6,5.51,mw,,,,,iscgem,iscgem786466,2022-04-26T21:20:29.136Z,"9 km W of Zacatal, Mexico",earthquake,,5.4,0.52,,reviewed,iscgem,iscgem
+1971-01-26T18:58:56.790Z,18.566,-103.171,49.7,5.22,mw,,,,,iscgem,iscgem788595,2022-04-26T21:25:21.011Z,"23 km S of Coalcomán de Vázquez Pallares, Mexico",earthquake,,21.4,0.31,,reviewed,iscgem,iscgem
+1970-12-09T08:02:41.370Z,16.075,-99.531,10,5.66,mw,,,,,iscgem,iscgem789013,2022-04-26T21:26:57.948Z,"69 km S of San Andrés Playa Encantada (El Podrido), Mexico",earthquake,,12.6,0.36,,reviewed,iscgem,iscgem
+1970-09-20T17:02:41.260Z,16.214,-97.372,26,5.19,mw,,,,,iscgem,iscgem792196,2022-04-26T21:31:44.306Z,"5 km S of San Miguel Panixtlahuaca, Mexico",earthquake,,10.6,0.33,,reviewed,iscgem,iscgem
+1970-07-10T13:14:50.350Z,17.263,-101.133,35,5.31,mw,,,,,iscgem,iscgem793655,2022-04-26T21:34:56.514Z,"11 km SW of Papanoa, Mexico",earthquake,,17.1,0.23,,reviewed,iscgem,iscgem
+1970-06-09T12:23:46.580Z,16.852,-98.252,35,5.18,mw,,,,,iscgem,iscgem794436,2022-04-26T21:37:44.592Z,"6 km N of Xochistlahuaca, Mexico",earthquake,,16.3,0.44,,reviewed,iscgem,iscgem
+1970-05-05T18:22:25.560Z,17.813,-95.696,90.1,5.14,mw,,,,,iscgem,iscgem795235,2022-04-26T21:39:35.751Z,"8 km ENE of Arenal Santa Ana, Mexico",earthquake,,43.4,0.2,,reviewed,iscgem,iscgem
+1970-02-04T05:08:50.040Z,15.509,-99.575,18.7,6.42,mw,,,,,iscgem,iscgem798802,2025-12-19T19:07:10.077Z,"131 km S of San Andrés Playa Encantada (El Podrido), Mexico",earthquake,,4,0.2,,reviewed,iscgem,iscgem
+1969-10-20T15:20:39.310Z,17.358,-95.198,96.5,5.62,mw,,,,,iscgem,iscgem803587,2022-04-26T21:54:52.686Z,"5 km SW of Los Ángeles, Mexico",earthquake,,5.2,0.28,,reviewed,iscgem,iscgem
+1969-07-03T16:59:07.930Z,16.669,-98.454,24.8,5.45,mw,,,,,iscgem,iscgem806687,2022-04-26T22:03:48.783Z,"5 km WSW of Ometepec, Mexico",earthquake,,4.7,0.23,,reviewed,iscgem,iscgem
+1969-04-28T09:12:42.170Z,16.581,-98.06,20,5.21,mw,,,,,iscgem,iscgem810247,2022-04-26T22:09:59.111Z,"4 km N of San Antonio Tepetlapa, Mexico",earthquake,,8.3,0.2,,reviewed,iscgem,iscgem
+1969-02-14T13:10:41.560Z,16.707,-98.974,35,5.35,mw,,,,,iscgem,iscgem812208,2022-04-26T22:12:07.969Z,"5 km SSE of Cuautepec, Mexico",earthquake,,12.2,0.2,,reviewed,iscgem,iscgem
+1968-08-16T21:24:39.250Z,18.228,-103.101,29.9,5.37,mw,,,,,iscgem,iscgem818077,2022-04-26T22:24:35.625Z,"59 km SE of Aquila, Mexico",earthquake,,26.9,0.41,,reviewed,iscgem,iscgem
+1968-08-16T18:25:54.480Z,16.557,-98.03,30,5.62,mw,,,,,iscgem,iscgem818076,2022-04-26T22:24:34.217Z,"1 km NNE of San Pedro Tulixtlahuaca, Mexico",earthquake,,4,0.22,,reviewed,iscgem,iscgem
+1968-08-14T08:38:43.120Z,18.271,-103.066,22.2,5.94,mw,,,,,iscgem,iscgem818003,2025-12-19T19:13:58.202Z,"56 km S of Coalcomán de Vázquez Pallares, Mexico",earthquake,,4,0.2,,reviewed,iscgem,iscgem
+1968-08-02T18:37:52.860Z,16.219,-97.797,16.4,5.33,mw,,,,,iscgem,iscgem817593,2022-04-26T22:23:25.547Z,"7 km SSE of Jamiltepec, Mexico",earthquake,,7.8,0.29,,reviewed,iscgem,iscgem
+1968-08-02T14:06:44.700Z,16.543,-97.746,30,7.3,mw,,,,,iscgem,iscgem817583,2025-12-19T19:13:48.181Z,"9 km WSW of La Humedad, Mexico",earthquake,,3.9,0.3,,reviewed,iscgem,iscgem
+1968-07-02T03:44:52.430Z,17.535,-100.233,57.3,6.29,mw,,,,,iscgem,iscgem818550,2025-12-19T19:14:14.594Z,"12 km W of Pueblo Viejo, Mexico",earthquake,,4.9,0.22,,reviewed,iscgem,iscgem
+1968-04-26T17:48:00.870Z,18.613,-103.457,38.2,6.17,mw,,,,,iscgem,iscgem824353,2025-12-19T19:17:17.056Z,"5 km ENE of Aquila, Mexico",earthquake,,5,0.2,,reviewed,iscgem,iscgem
+1968-02-03T05:36:17.840Z,16.61,-99.463,18.1,5.92,mw,,,,,iscgem,iscgem825692,2025-12-19T18:54:02.744Z,"16 km SSE of Llano de la Puerta, Mexico",earthquake,,3.6,0.2,,reviewed,iscgem,iscgem
+1967-10-15T18:35:52.140Z,17.636,-101.09,41.8,5.19,mw,,,,,iscgem,iscgem830340,2022-04-26T22:46:17.483Z,"21 km ENE of Petatlán, Mexico",earthquake,,5.1,0.22,,reviewed,iscgem,iscgem
+1967-09-29T15:40:48.960Z,16.426,-98.319,19.4,5.25,mw,,,,,iscgem,iscgem831770,2022-04-26T22:48:24.152Z,"4 km SW of Santa María Cortijo, Mexico",earthquake,,9.3,0.2,,reviewed,iscgem,iscgem
+1967-04-14T05:18:36.740Z,17.531,-100.331,55,5.29,mw,,,,,iscgem,iscgem836716,2022-04-26T22:56:00.895Z,"22 km W of Pueblo Viejo, Mexico",earthquake,,6,0.2,,reviewed,iscgem,iscgem
+1967-04-13T19:59:53.070Z,18.309,-100.125,85,5.84,mw,,,,,iscgem,iscgem836698,2022-04-26T22:55:58.799Z,"Guerrero-Michoacan border region, Mexico",earthquake,,5.3,0.53,,reviewed,iscgem,iscgem
+1967-03-11T14:45:01.450Z,19.263,-95.801,28.7,5.62,mw,,,,,iscgem,iscgem837720,2022-04-26T22:57:07.451Z,"30 km NE of Antón Lizardo, Mexico",earthquake,,3.9,0.3,,reviewed,iscgem,iscgem
+1967-02-17T20:23:16.070Z,16.664,-98.566,21.5,5.14,mw,,,,,iscgem,iscgem838890,2022-04-26T23:00:22.379Z,"3 km NNW of Huehuetán, Mexico",earthquake,,4.7,0.2,,reviewed,iscgem,iscgem
+1966-11-21T11:11:58.470Z,18.568,-102.601,44.3,5.13,mw,,,,,iscgem,iscgem841812,2022-04-26T23:07:11.460Z,"23 km W of Tumbiscatío de Ruiz, Mexico",earthquake,,5.2,0.39,,reviewed,iscgem,iscgem
+1966-11-04T14:50:00.810Z,16.967,-99.678,35,5.12,mw,,,,,iscgem,iscgem841298,2022-04-26T23:06:14.659Z,"4 km SE of Sabanillas, Mexico",earthquake,,14.3,0.3,,reviewed,iscgem,iscgem
+1966-09-25T06:02:29.780Z,18.261,-100.985,80.3,6.02,mw,,,,,iscgemsup,iscgemsup843852,2022-05-09T19:21:31.466Z,"9 km WNW of Placeres del Oro, Mexico",earthquake,,5.3,0.77,,reviewed,iscgemsup,iscgemsup
+1966-04-11T17:17:31.150Z,18.193,-102.439,34,5.66,mw,,,,,iscgem,iscgem848314,2025-12-19T18:20:20.420Z,"21 km NW of La Mira, Mexico",earthquake,,4.6,0.2,,reviewed,iscgem,iscgem
+1966-04-02T01:52:38.190Z,16.303,-97.481,30.3,5.53,mw,,,,,iscgem,iscgem848007,2022-04-26T23:19:58.280Z,"Oaxaca, Mexico",earthquake,,4.7,0.51,,reviewed,iscgem,iscgem
+1965-12-21T08:41:00.000Z,16.806,-98.198,25,5.41,mw,,,,,iscgem,iscgem851872,2022-04-26T23:30:08.572Z,"4 km ENE of Xochistlahuaca, Mexico",earthquake,,23.8,0.33,,reviewed,iscgem,iscgem
+1965-12-09T06:07:49.640Z,17.214,-100.045,44.2,6.39,mw,,,,,iscgem,iscgem851606,2025-12-19T18:17:22.750Z,"4 km WNW of Las Compuertas, Mexico",earthquake,,8.2,0.2,,reviewed,iscgem,iscgem
+1965-10-09T07:47:19.930Z,16.371,-97.001,35,5.28,mw,,,,,iscgem,iscgem853000,2022-04-26T23:32:31.584Z,"6 km NE of San Cristóbal Honduras, Mexico",earthquake,,3.9,0.26,,reviewed,iscgem,iscgem
+1965-08-24T01:01:00.050Z,15.835,-96.244,25,5.83,mw,,,,,iscgem,iscgem854885,2025-12-19T18:16:38.037Z,"8 km E of Cuapinolito (Azulillo), Mexico",earthquake,,18.2,0.29,,reviewed,iscgem,iscgem
+1965-08-24T00:56:24.140Z,15.68,-96.484,27.6,5.54,mw,,,,,iscgemsup,iscgemsup854884,2022-05-09T19:22:09.766Z,"1 km NNE of Puerto Ángel, Mexico",earthquake,,8.2,0.76,,reviewed,iscgemsup,iscgemsup
+1965-08-23T19:46:02.620Z,16.157,-95.876,14.5,7.4,mw,,,,,iscgem,iscgem854871,2025-12-19T18:18:53.559Z,"4 km NW of Santa María Zapotitlán, Mexico",earthquake,,3.8,0.2,,reviewed,iscgem,iscgem
+1965-06-24T03:45:40.480Z,16.823,-99.748,25,5.16,mw,,,,,iscgem,iscgem856378,2022-04-26T23:38:41.395Z,"1 km SW of 10 de Abril, Mexico",earthquake,,14.3,0.2,,reviewed,iscgem,iscgem
+1965-04-03T11:29:11.440Z,15.789,-98.068,30.3,5.97,mw,,,,,iscgem,iscgem857414,2025-12-19T18:15:54.500Z,"44 km SSW of Santa María Chicometepec, Mexico",earthquake,,4.5,0.28,,reviewed,iscgem,iscgem
+1965-04-03T11:20:43.570Z,15.802,-98.061,10,5.85,mw,,,,,iscgem,iscgem857413,2025-12-19T18:17:39.472Z,"42 km SSW of Santa María Chicometepec, Mexico",earthquake,,7.8,0.2,,reviewed,iscgem,iscgem
+1965-01-07T15:56:32.040Z,16.146,-97.298,22.5,5.41,mw,,,,,iscgem,iscgem860814,2022-04-26T23:48:40.817Z,"6 km E of San Marcos Zacatepec, Mexico",earthquake,,10.6,0.3,,reviewed,iscgem,iscgem
+1964-07-06T07:22:13.190Z,18.136,-100.605,93.3,7.28,mw,,,,,iscgem,iscgem865780,2022-04-27T00:00:52.058Z,"10 km SW of Villa Nicolás Bravo, Mexico",earthquake,,5,0.7,,reviewed,iscgem,iscgem
+1964-06-04T04:28:58.200Z,17.323,-100.929,35,5.59,mw,,,,,iscgem,iscgem866546,2025-12-19T18:11:54.621Z,"6 km NNW of San Luis de La Loma, Mexico",earthquake,,17.1,0.2,,reviewed,iscgem,iscgem
+1964-03-21T15:08:09.800Z,18.458,-103.337,35,5.82,mw,,,,,iscgem,iscgem869668,2025-12-19T17:32:05.099Z,"23 km SE of Aquila, Mexico",earthquake,,5,0.21,,reviewed,iscgem,iscgem
+1964-01-20T20:30:08.510Z,16.047,-98.973,25,5.13,mw,,,,,iscgem,iscgem871412,2022-04-27T00:17:26.482Z,"57 km SSW of Barra de Tecoanapa, Mexico",earthquake,,9.8,0.2,,reviewed,iscgem,iscgem
+1962-11-30T21:51:24.380Z,17.254,-99.732,45,5.76,mw,,,,,iscgem,iscgem875740,2022-04-26T16:14:40.677Z,"12 km SW of Coacoyulillo, Mexico",earthquake,,6,0.2,,reviewed,iscgem,iscgem
+1962-05-19T14:58:14.930Z,16.872,-99.726,25,6.8,mw,,,,,iscgem,iscgem17291870,2022-04-26T16:05:48.415Z,"1 km SW of San Isidro Gallinero (El Gallinero), Mexico",earthquake,,14.3,0.3,,reviewed,iscgem,iscgem
+1962-05-11T14:11:54.550Z,16.96,-99.741,25,7,mw,,,,,iscgem,iscgem874725,2022-04-26T16:09:49.014Z,"1 km SSW of Ejido Nuevo, Mexico",earthquake,,14.3,0.3,,reviewed,iscgem,iscgem

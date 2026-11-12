@@ -80,9 +80,10 @@ ACTIVITY_T_VALUES = [4, 6, 8, 10]
 ACTIVITY_KM_BUDGETS = [1, 5, 10, 50]
 ACTIVITY_COVERAGE_RADIUS = 600    # 600 m DAS coverage radius
 DAS_SENSING_RANGE = 500              # meters — max distance a single DAS can support
-EQ_DEPTH = 20_000                    # meters — assumed earthquake hypocentre depth
-V_P = 7_000                          # m/s — P-wave velocity
-V_S = 4_000                          # m/s — S-wave velocity
+EQ_DEPTH = 10_000                    # meters — shallow crustal source (sensitivity case: 20 km)
+V_P = 5_000                          # m/s — P-wave velocity (sensitivity case: 7 km/s)
+V_S = 2_900                          # m/s — S-wave velocity (sensitivity case: 4 km/s)
+EEW_M = 4                            # an alarm needs P-wave arrivals at M distinct segments
 
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'city_cache')
 STRATEGY_COLORS = {'traffic': '#D32F2F', 'eew': '#1565C0',
@@ -198,19 +199,29 @@ def _find_pop_dir():
     return None
 
 
+def _bundled_population(edges, city_name):
+    """Per-edge WorldPop samples bundled for the paper cities whose country rasters are too
+    large to ship (population_data/per_edge/<City>.npy, aligned with the cached graph)."""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'population_data', 'per_edge',
+                        city_name.replace(' ', '_') + '.npy')
+    if os.path.exists(path):
+        pop = np.load(path)
+        if len(pop) == len(edges):
+            return pop
+    return None
+
+
 def load_population_per_edge(edges, G_proj, city_name):
     """Sample WorldPop 1km raster at each edge midpoint."""
-    if rasterio is None:
-        return None
     code = CITY_POP_RASTER.get(city_name)
     if code is None:
         return None
     pop_dir = _find_pop_dir()
-    if pop_dir is None:
-        return None
+    if rasterio is None or pop_dir is None:
+        return _bundled_population(edges, city_name)
     tif_path = os.path.join(pop_dir, f'{code}_ppp_2020_1km_Aggregated_UNadj.tif')
     if not os.path.exists(tif_path):
-        return None
+        return _bundled_population(edges, city_name)
 
     from pyproj import Transformer
     crs_proj = G_proj.graph['crs']
@@ -444,8 +455,73 @@ def _greedy_eew_step(D_full, midpoints, selected, valid_mask, min_spacing):
     return best
 
 
-def optimize_eew(edges, T, eq_locations, min_spacing=EEW_MIN_SPACING):
-    """Greedy selection of T DAS edges (vectorised).
+def optimize_eew(edges, T, eq_locations, min_spacing=EEW_MIN_SPACING, weights=None,
+                 depth=None, v_p=None, M=EEW_M, allowed=None):
+    """Greedy selection of T DAS edges for earthquake early warning.
+
+    Objective:  minimise the weighted mean alarm time  sum_q w_q * delta_(M)(q) / v_P,
+                where delta_(M)(q) is the hypocentral distance from source q to the M-th
+                nearest selected segment (the alarm is raised when M distinct segments
+                have detected the P wave).
+    Constraint: every pair of selected DAS must be >= min_spacing apart.
+
+    eq_locations: (Q, 2) candidate epicentres; weights: (Q,) exposure/hazard weights
+    (uniform if None; sampling the epicentres in proportion to population already
+    carries the population weight); depth: scalar or (Q,) source depths (default
+    EQ_DEPTH); allowed: optional boolean mask of accessible edges.
+    While fewer than M segments are selected the k-th nearest is used, k = number selected.
+    """
+    mid = np.array([[e['mx'], e['my']] for e in edges])
+    Q = len(eq_locations)
+    w = np.ones(Q) if weights is None else np.asarray(weights, float)
+    w = w / w.sum()
+    h = np.broadcast_to(np.asarray(EQ_DEPTH if depth is None else depth, float), (Q,))
+    vp = V_P if v_p is None else v_p
+    D = (np.sqrt(cdist(mid, eq_locations) ** 2 + h[None, :] ** 2) / vp).astype(np.float32)
+    allowed = np.ones(len(mid), bool) if allowed is None else np.asarray(allowed, bool).copy()
+    sel, sel_D = [], np.empty((0, Q), np.float32)
+    for _ in range(T):
+        ok = allowed.copy(); ok[sel] = False
+        if sel:
+            ok &= cdist(mid, mid[sel]).min(1) >= min_spacing
+        cand = np.where(ok)[0]
+        if len(cand) == 0:                      # spacing infeasible: relax it
+            ok = allowed.copy(); ok[sel] = False
+            cand = np.where(ok)[0]
+            if len(cand) == 0:
+                break
+        k = min(M, len(sel) + 1)
+        C = D[cand]
+        if not sel:
+            score = C @ w
+        else:
+            base = np.sort(sel_D, axis=0)
+            if k <= len(sel):                   # k-th smallest after inserting the candidate
+                kth = base[k - 1]
+                km1 = base[k - 2] if k >= 2 else np.full(Q, -np.inf, np.float32)
+                new_k = np.where(C >= kth, kth, np.where(C >= km1, C, km1 if k >= 2 else C))
+            else:
+                new_k = np.maximum(C, base[-1])
+            score = new_k @ w
+        b = int(cand[np.argmin(score)])
+        sel.append(b); sel_D = np.vstack([sel_D, D[b][None, :]])
+    return sel
+
+
+def eval_eew_alarm(edges, selected, eq_locations, weights=None, depth=None, v_p=None, M=EEW_M):
+    """Weighted mean alarm time in seconds (P-wave arrival at the M-th nearest segment)."""
+    if not len(selected):
+        return np.inf
+    mid = np.array([[edges[i]['mx'], edges[i]['my']] for i in selected])
+    Q = len(eq_locations)
+    w = np.ones(Q) if weights is None else np.asarray(weights, float)
+    h = np.broadcast_to(np.asarray(EQ_DEPTH if depth is None else depth, float), (Q,))
+    D = np.sort(np.sqrt(cdist(mid, eq_locations) ** 2 + h[None, :] ** 2), axis=0) / (V_P if v_p is None else v_p)
+    return float((w / w.sum()) @ D[min(M, len(selected)) - 1])
+
+
+def optimize_eew_minimax(edges, T, eq_locations, min_spacing=EEW_MIN_SPACING):
+    """Legacy objective of version 1.0.0 (not used in the paper any more).
 
     Objective:  minimise max_q [ min_i d(s_i, q) ]  — worst-case detection
     Constraint: every pair of selected DAS must be ≥ min_spacing apart
@@ -604,6 +680,13 @@ def eval_activity(edges, selected, pop):
 # ================================================================
 # 3d. EEW Alert-Time Heatmap
 # ================================================================
+
+def compute_alarm_time_grid(edges, selected, grid_res=200, pad_frac=0.35):
+    """Alarm time in seconds for a source at each grid location: P-wave arrival at the
+    EEW_M-th nearest selected segment (Fig. 3d of the paper). Earliest possible: EQ_DEPTH / V_P."""
+    excess, extent = compute_alert_time_grid(edges, selected, grid_res, pad_frac)
+    return (1.0 + excess / 100.0) * EQ_DEPTH / V_P, extent
+
 
 def compute_alert_time_grid(edges, selected, grid_res=200, pad_frac=0.35):
     """EEW excess detection delay: 100 × (t_P − t_P^min) / t_P^min  (%).
