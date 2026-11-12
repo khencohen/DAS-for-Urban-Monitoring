@@ -47,12 +47,12 @@ def draw(unit):
     for dd in (HERE, PAPER): fig.savefig(os.path.join(dd, name + '.pdf'))
     fig.savefig(os.path.join(HERE, name + '.png'), dpi=110); plt.close(fig)
 def draw_dual():
-    """Hops on the left axis, meters on the right axis (the version used in the paper)."""
+    """Meters on the left axis, hops on the right axis (the version used in the paper)."""
     fig, ax = plt.subplots(figsize=(8.6, 6.0))
     for lo, hi, col, lab in BANDS:
         ax.axhspan(lo, hi, color=col, alpha=0.75, lw=0, zorder=1)
         if lab is None: continue
-        rng = f'({lo:g}-{hi:g})' if lo >= 0.1 else f'(0-{hi:g})'
+        rng = f'($d$ = {lo:g}-{hi:g})' if lo >= 0.1 else f'($d$ = 0-{hi:g})'
         ax.text(51, LABEL_Y.get(lab, np.sqrt(lo * hi)), f'{lab} {rng}', ha='center', va='center', fontsize=12.5 if lo >= 0.05 else 10.5, zorder=4)
     ax.text(51, 0.4, r'City Scale Monitoring ($c > c^{\star}$)', ha='center', va='center', fontsize=12.5, zorder=4)
     ax.plot(c * 100, d, color='#1f77b4', lw=2.4, zorder=5)
@@ -64,10 +64,11 @@ def draw_dual():
     ax.set_yticks(ticks); ax.minorticks_off()
     ax.set_yticklabels(['0.1', '1', f'{dstar:.2f}', '3', '5', '7', '8', '10', '12', '25'], fontsize=8.5)
     ax.set_ylabel('Critical Distance  d  (hops)', fontsize=13)
-    ax2 = ax.secondary_yaxis('right', functions=(lambda x: x * M_PER_HOP, lambda x: x / M_PER_HOP))
+    ax.yaxis.tick_right(); ax.yaxis.set_label_position('right')
+    ax2 = ax.secondary_yaxis('left', functions=(lambda x: x * M_PER_HOP, lambda x: x / M_PER_HOP))
     mt = [5, 10, 20, 50, 100, 200, 500, 1000, 2000]
     ax2.set_yticks(mt); ax2.set_yticklabels([fmt_m(v) for v in mt], fontsize=8.5); ax2.minorticks_off()
-    ax2.set_ylabel('Distance at 80 m per hop', fontsize=13)
+    ax2.set_ylabel('Critical Distance  (80 m per hop)', fontsize=13)
     ax.grid(True, axis='x', alpha=0.3)
     fig.tight_layout()
     for dd in (HERE, PAPER): fig.savefig(os.path.join(dd, 'fig2_d_vs_c.pdf'))
