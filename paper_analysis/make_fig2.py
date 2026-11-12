@@ -46,4 +46,33 @@ def draw(unit):
     name = f'fig2_d_vs_c_{unit}'
     for dd in (HERE, PAPER): fig.savefig(os.path.join(dd, name + '.pdf'))
     fig.savefig(os.path.join(HERE, name + '.png'), dpi=110); plt.close(fig)
-draw('hops'); draw('metres'); print('saved')
+def draw_dual():
+    """Hops on the left axis, meters on the right axis (the version used in the paper)."""
+    fig, ax = plt.subplots(figsize=(8.6, 6.0))
+    for lo, hi, col, lab in BANDS:
+        ax.axhspan(lo, hi, color=col, alpha=0.75, lw=0, zorder=1)
+        if lab is None: continue
+        rng = f'({lo:g}-{hi:g})' if lo >= 0.1 else f'(0-{hi:g})'
+        ax.text(51, LABEL_Y.get(lab, np.sqrt(lo * hi)), f'{lab} {rng}', ha='center', va='center', fontsize=12.5 if lo >= 0.05 else 10.5, zorder=4)
+    ax.text(51, 0.4, r'City Scale Monitoring ($c > c^{\star}$)', ha='center', va='center', fontsize=12.5, zorder=4)
+    ax.plot(c * 100, d, color='#1f77b4', lw=2.4, zorder=5)
+    ax.plot(CSTAR * 100, dstar, 'o', color='red', mec='k', mew=1, ms=8, zorder=6)
+    ax.text(CSTAR * 100 - 0.5, dstar * 1.25, 'Transition Point', fontsize=8.5, fontweight='bold', zorder=6)
+    ax.set_yscale('log'); ax.set_xlim(0, 102); ax.set_ylim(0.035, 35)
+    ax.set_xticks(range(0, 101, 10)); ax.set_xlabel('Coverage Ratio (%)', fontsize=13)
+    ticks = [0.1, 1, dstar, 3, 5, 7, 8, 10, 12, 25]
+    ax.set_yticks(ticks); ax.minorticks_off()
+    ax.set_yticklabels(['0.1', '1', f'{dstar:.2f}', '3', '5', '7', '8', '10', '12', '25'], fontsize=8.5)
+    ax.set_ylabel('Critical Distance  d  (hops)', fontsize=13)
+    ax2 = ax.secondary_yaxis('right', functions=(lambda x: x * M_PER_HOP, lambda x: x / M_PER_HOP))
+    mt = [5, 10, 20, 50, 100, 200, 500, 1000, 2000]
+    ax2.set_yticks(mt); ax2.set_yticklabels([fmt_m(v) for v in mt], fontsize=8.5); ax2.minorticks_off()
+    ax2.set_ylabel('Distance at 80 m per hop', fontsize=13)
+    ax.grid(True, axis='x', alpha=0.3)
+    fig.tight_layout()
+    for dd in (HERE, PAPER): fig.savefig(os.path.join(dd, 'fig2_d_vs_c.pdf'))
+    fig.savefig(os.path.join(HERE, 'fig2_d_vs_c.png'), dpi=110); plt.close(fig)
+
+if __name__ == '__main__':
+    draw_dual(); print('saved fig2_d_vs_c (paper version); draw("hops") and draw("metres") give the single-axis alternatives')
+
