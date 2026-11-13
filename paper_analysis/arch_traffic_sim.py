@@ -109,7 +109,7 @@ FS_LABEL, FS_TICK, FS_LEG, FS_PANEL = 8, 7, 6, 10
 LR_C, MI_C = '#1565C0', '#D32F2F'
 fig = plt.figure(figsize=(7.0, 4.9))
 gs = fig.add_gridspec(2, 3, height_ratios=[1.35, 1], hspace=0.35, wspace=0.42)
-for k, (title, groups) in enumerate((('Long-range DAS', [(sel_lr, LR_C)]), ('Micro-DAS', [(sel_mi, MI_C)]), ('Hybrid', [(sel_h1, LR_C), (sel_h2, MI_C)]))):
+for k, (title, groups) in enumerate((('Long-range DAS', [(sel_lr, LR_C)]), ('Short-range DAS', [(sel_mi, MI_C)]), ('Hybrid', [(sel_h1, LR_C), (sel_h2, MI_C)]))):
     ax = fig.add_subplot(gs[0, k])
     orx.plot_city_base(ax, base_lines, color='#d0d0d0', lw=0.25, alpha=0.6)
     for sel, col in groups:
@@ -119,7 +119,7 @@ for k, (title, groups) in enumerate((('Long-range DAS', [(sel_lr, LR_C)]), ('Mic
              (int(np.ceil(L[sel_mi] / 500).sum()) if k == 1 else len([p for p in pieces if set(p) <= set(sel_h1)]) + int(np.ceil(L[sel_h2] / 500).sum())))
     ax.set_title(f"{title}: {r['km']:.0f} km, {units} units\ntraffic {r['traffic']*100:.0f}%, city cells {r['cells']*100:.0f}%", fontsize=FS_LEG + 0.5)
     ax.text(-0.02, 1.12, 'ABC'[k], transform=ax.transAxes, fontsize=FS_PANEL, fontweight='bold', va='bottom', ha='right')
-cols = {'long_range': (LR_C, 'Long-range DAS'), 'micro': (MI_C, 'Micro-DAS'), 'hybrid': ('#6a1b9a', 'Hybrid')}
+cols = {'long_range': (LR_C, 'Long-range DAS'), 'micro': (MI_C, 'Short-range DAS'), 'hybrid': ('#6a1b9a', 'Hybrid')}
 for k, (metric, lab) in enumerate((('traffic', 'Traffic captured (%)'), ('cells', 'City cells monitored (%)'), ('units', 'Interrogators'))):
     ax = fig.add_subplot(gs[1, k])
     for arch, (col, name) in cols.items():
